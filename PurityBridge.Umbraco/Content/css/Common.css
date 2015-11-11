@@ -182,3 +182,8 @@
 .widget-alt.location address, .social-icons {
     float: initial !important;
 }
+
+/* main navigation */
+.main-nav li.active > a {
+    color: #ffffff;
+}

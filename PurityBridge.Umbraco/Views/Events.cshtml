@@ -1,6 +1,6 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-    Layout = "Layout.cshtml";
+    Layout = "Shared/_Layout.cshtml";
     var eventPages = CurrentPage.Descendants("EventPage");
     var queryString = Request.QueryString;
     string qEventType = queryString["qEventType"];

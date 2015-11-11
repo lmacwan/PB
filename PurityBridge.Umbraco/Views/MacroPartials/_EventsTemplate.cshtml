@@ -145,13 +145,4 @@
     function getLastEventDate() {
         return new Date(@(lastEventDate));
     }
-
-    function hasNextPage() {
-        @{
-            var lastEvent = lstEvents.Last();
-        }
-
-        var v = "@(eventPages.Any() ? eventPages.Where("Visible").Where("eventDate >= @0", lastEvent.EventDate).Where("id != @0", lastEvent.Id).Any() : false)";
-        return v === "True";
-    }
 </script>

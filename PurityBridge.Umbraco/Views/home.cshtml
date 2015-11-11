@@ -30,9 +30,9 @@
         var d = t.startDate;
         $("div.event.page-content").html(t.find(".page-content").html());
         var navTemplate = $("#tmplEventsFooter > nav");
-        if (t.hasNextPage) {
-            $(".event.page-footer > nav.forward").html(navTemplate.find(".forward").html());
-        }
+        //if (t.hasNextPage) {
+        //    $(".event.page-footer > nav.forward").html(navTemplate.find(".forward").html());
+        //}
         @*$.get("@Url.Action("GetEvents", "Events", new { d = "DATE", type="TYPE" })".replace("DATE", d).replace("TYPE", eventType), null, function (data) {
 
             //if (data.hasPreviousPage) {
@@ -102,7 +102,7 @@
             <span id="eventType">@(qEventType)</span>
             <span id="startDate">@(qCurrentDate == DateTime.MinValue ? lstEvents.First().GetPropertyValue("eventDate") : qCurrentDate.ToString())</span>
             <span id="loaded">@(qLoaded)</span>
-            <span id="hasNextPage">@(lstEvents.Count() > (qLoaded + 1) * eventsPerPage)</span>
+            @*<span id="hasNextPage">@(lstEvents.Count() > (qLoaded + 1) * eventsPerPage)</span>*@
         </div>
         <div class="page-content">
             @foreach (dynamic eventPage in lstEvents.Take(eventsPerPage))
