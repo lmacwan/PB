@@ -67,18 +67,6 @@ function onDocumentReady() {
 
     $('#tuner label:first-child').prepend('<div>Width = ' + $(window).innerWidth() + '</div>');
 
-    // Active Menu-Item
-    $("header .active").removeClass("active");
-    var loc = window.location.href.toString().split('/');
-    var controllerName = "";
-    var i = 0;
-    if (loc[i] == "http:" || loc[i] == "https:") {
-        i = i + 2;
-    }
-    i++;
-    controllerName = loc[i];
-    $("header a[controller=" + controllerName + "]").addClass("active");
-
     // beautify
     $('.beautify').find("article").each(function (i, e) {
         $(e).addClass("widget");

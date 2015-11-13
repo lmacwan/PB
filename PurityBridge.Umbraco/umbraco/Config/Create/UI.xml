@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <createUI>
   <nodeType alias="nodeTypes">
     <header>Nodetype</header>
@@ -336,6 +336,22 @@
     <tasks>
       <create assembly="umbraco" type="PartialViewMacroTasks" />
       <delete assembly="umbraco" type="PartialViewMacroTasks" />
+    </tasks>
+  </nodeType>
+  <nodeType alias="initprojects">
+    <header>Project</header>
+    <usercontrol>/plugins/uMirror/create/createNodeProject.ascx</usercontrol>
+    <tasks>
+      <create assembly="Lecoati.uMirror" type="loadProjectTasks" />
+      <delete assembly="Lecoati.uMirror" type="loadProjectTasks" />
+    </tasks>
+  </nodeType>
+  <nodeType alias="initnodes">
+    <header>Node</header>
+    <usercontrol>/plugins/uMirror/create/createNodeProject.ascx</usercontrol>
+    <tasks>
+      <create assembly="Lecoati.uMirror" type="loadNodeTasks" />
+      <delete assembly="Lecoati.uMirror" type="loadNodeTasks" />
     </tasks>
   </nodeType>
 </createUI>

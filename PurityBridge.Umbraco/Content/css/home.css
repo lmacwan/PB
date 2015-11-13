@@ -225,7 +225,7 @@ input[type="button"], input[type="submit"], input[type="reset"], button {
 .treatments {
     background: none repeat scroll 0 0 #ffffff;
     padding: 40px 25px 50px 25px;
-    text-align: center;
+    text-align: justify;
 }
 
 

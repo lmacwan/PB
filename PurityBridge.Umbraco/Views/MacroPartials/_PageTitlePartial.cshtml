@@ -1,45 +1,61 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
 @{
-    var breadcrumbs = ((List<PurityBridge.Live.BreadCrumbElement>)ViewBag.BreadCrumbs);
+    var pageName = CurrentPage.Name;
 }
 
-<!-- page title -->
-@if (!(Model.Name.ToString().Equals("home", StringComparison.InvariantCultureIgnoreCase)))
+@if (ViewBag.ShowPageTitle == true)
 {
-    @RenderBreadCrumbs(breadcrumbs);
-}
-<!--/ page title -->
-
-@helper RenderBreadCrumbs(List<PurityBridge.Live.BreadCrumbElement> breadcrumb)
-{
-    if (Request.RawUrl.Contains("construction"))
-    {
     <section class="page-title">
         <div class="grid-row clearfix">
-            <h1>Under Construction</h1>
-        </div>
-    </section>
-    }
-    else if (breadcrumb != null)
-    {
-        var lastCrumb = breadcrumb.Last();
-        breadcrumb.Remove(lastCrumb);
-        
-    <section class="page-title">
-        <div class="grid-row clearfix">
-            <h1>@lastCrumb.Name</h1>
+            <h1>@pageName</h1>
             <nav class="bread-crumbs">
-                <a href="/">Home </a><span>&nbsp;</span>
-                @foreach (var node in breadcrumb)
-                {
-                    <i class="fa fa-angle-right"></i><span>&nbsp;</span>
-                    <a href="@node.Value">@node.Name</a>
-                    <span>&nbsp;</span>
-                }
-                <i class="fa fa-angle-right"></i><span>&nbsp;</span>
-                @lastCrumb.Name
+                <div class="breadcrumb breadcrumbs">
+
+                </div>
+                <div class="breadcrumb last-breadcrumb">
+                </div>
             </nav>
         </div>
     </section>
-    }
+
+    <script type="text/template" id="script-breadcrumb">
+        <div>
+            <div class="breadcrumbs">
+                <a class="breadcrumb"></a>
+                <span>&nbsp;</span>
+                <i class="fa fa-angle-right"></i><span>&nbsp;</span>
+            </div>
+            <div class="breadcrumbs last-breadcrumb" data-node-id="@CurrentPage.Id">
+                @pageName
+            </div>
+        </div>
+    </script>
+
+    <script>
+        function loadBreadCrumbs() {
+            var s = $("#script-breadcrumb").html();
+            var h = $(s);
+            var l = h.find(".last-breadcrumb");
+            var c = l.html();
+            var id = l.attr("data-node-id")
+            var m = $("nav.mobile-main-nav li[data-node-id=" + id + "]");
+            m.parents("nav").not("ul, nav").each(function () {
+                var n = $(this).text();
+                var t = h.find(".breadcrumb").html();
+                t.html(n);
+                t.attr("href", $(this).find("a").attr("href"));
+                var a = $(t).html();
+                $(a).after(c);
+                c = $(a).html();
+            });
+
+            var e = $(".page-title nav");
+            e.find(".bread-crumbs").html(c);
+        }
+
+        (function () {
+            loadBreadCrumbs();
+        })();
+    </script>
 }

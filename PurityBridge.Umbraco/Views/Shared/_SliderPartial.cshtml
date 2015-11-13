@@ -1,22 +1,13 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<umbraco.NodeFactory.Node>
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<IPublishedContent>
 @{
-    IEnumerable<umbraco.NodeFactory.Node> data = null;
+    IPublishedContent data = Model.Content;
 }
 
-@if (Model.UrlName == "home")
+@if (data != null)
 {
-    data = uQuery.GetNodesByType("HomeData");
-}
-else if (Model.UrlName == "clinic")
-{
-    data = uQuery.GetNodesByType("ClinicData");
-}
+    var slides = data.Children;
 
-@if (data != null && data.Any())
-{
-    var sliders = data.First().ChildrenAsList.Where(c => c.NodeTypeAlias == "Slider");
-
-    if (sliders.Any())
+    if (slides.Any())
     {
         var url = "";
         var relatedPage = "";
@@ -28,36 +19,36 @@ else if (Model.UrlName == "clinic")
     <!-- slider -->
         <div class="slider-wrapper">
             <section class="slider" id="slider">
-                @foreach (umbraco.NodeFactory.Node slider in sliders.First().ChildrenAsList)
+                @foreach (IPublishedContent slide in slides)
                 {
-                    url = Umbraco.TypedMedia(slider.GetProperty<int>("filepath")).Url;
-                    relatedPage = Umbraco.TypedContent(slider.GetProperty<int>("relatedPage")).Url;
-                    //textDuration = (int)((slider.GetProperty<int>("delay") * 0.2851) * 1000);
+                    url = Umbraco.TypedMedia(slide.GetPropertyValue<int>("filepath")).Url;
+                    relatedPage = Umbraco.TypedContent(slide.GetPropertyValue<int>("relatedPage")).Url;
+                    //textDuration = (int)((slider.GetPropertyValue<int>("delay") * 0.2851) * 1000);
                     textDuration = 4000;
 
-                    slideTransition = slider.GetProperty<int>("slideTransition") <= 0 ? "111" : slider.GetProperty<int>("slideTransition") + "";
+                    slideTransition = slide.GetPropertyValue<int>("slideTransition") <= 0 ? "111" : slide.GetPropertyValue<int>("slideTransition") + "";
 
-                    if (slider.GetProperty<string>("textTransition").ToLower() == "skew")
+                    if (slide.GetPropertyValue<string>("textTransition").ToLower() == "skew")
                     {
                         transiton = "skewxin:30;skewyin:0;offsetxin:right;fadein:false;durationin:" + textDuration + ";durationout:" + (textDuration / 2) + ";offsetxout:right;offsetyout:0;fadeout: true;";
                     }
-                    else if (slider.GetProperty<string>("textTransition").ToLower() == "rotate")
+                    else if (slide.GetPropertyValue<string>("textTransition").ToLower() == "rotate")
                     {
-                        slideDuration = (int)((slider.GetProperty<int>("delay") * 0.428) * 1000);
+                        slideDuration = (int)((slide.GetPropertyValue<int>("delay") * 0.428) * 1000);
                         transiton = "scalexin:0.3;scaleyin:0.3;rotatexin:180;offsetxin:0;durationin:" + textDuration + ";durationout:" + textDuration + ";scalexout:2;scaleyout:2;offsetxout:0;fadeout: true;showuntil:" + slideDuration + ";";
                     }
                     else
                     {
                         transiton = " offsetyin:top;offsetxin:0;durationin:" + textDuration + ";offsetyout:bottom;offsetxout: 0;durationout:" + (textDuration / 2) + ";";
                     }
-                    var alt = slider.GetProperty<string>("thumbnailImageAltValue") ?? string.Empty;
-                    <div class="ls-slide" data-ls='transition2d:@slideTransition;slidedelay:@slider.GetProperty("delay")000;'>
+                    var alt = slide.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
+                    <div class="ls-slide" data-ls='transition2d:@slideTransition;slidedelay:@slide.GetPropertyValue("delay")000;'>
                         <img src="@url" alt="@alt" class="ls-bg" />
-                        @if (slider.GetProperty<string>("line1") != "")
+                        @if (slide.GetPropertyValue<string>("line1") != "")
                         {
                             <div class="intro ls-l" data-ls='@transiton;' style='left: 80%; top: 35%;'>
-                                <h2><span>@slider.GetProperty("line1")</span><span>@slider.GetProperty("line2")</span></h2>
-                                <p>@slider.GetProperty("description")</p>
+                                <h2><span>@slide.GetPropertyValue("line1")</span><span>@slide.GetPropertyValue("line2")</span></h2>
+                                <p>@slide.GetPropertyValue("description")</p>
                                 <div class="buttons">
                                     <a href="#" class="prev"><i class="fa fa-angle-left"></i></a>
                                     <a href="@relatedPage" class="button">Read More</a>

@@ -45,7 +45,7 @@
 
         @{ Html.RenderPartial("_SearchPartial"); }
         @{ Html.RenderPartial("_PageTitlePartial"); }
-        @Html.Partial("_SliderPartial", uQuery.GetCurrentNode())
+        @Html.Partial("_SliderPartial")
         @RenderSection("ImageSection", false)
         <!-- page content -->
         <main>

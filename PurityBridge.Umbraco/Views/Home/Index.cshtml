@@ -9,7 +9,7 @@
 
 @if (homeData.Any())
 {
-    var highlights = homeData.First().ChildrenAsList.Where(data => data.NodeTypeAlias == "Highlights");
+    var highlights = homeData.First().GetDescendantNodesByType("Highlights");
     if (highlights.Any())
     {
         //var highlightsContent = Umbraco.TypedContent(highlights.First().Id);
@@ -18,7 +18,7 @@
         }
     }
 
-    var featured = homeData.First().ChildrenAsList.Where(data => data.NodeTypeAlias == "Featured");
+    var featured = homeData.First().GetDescendantNodesByType("Featured");
     if (featured.Any())
     {
         //var featuredContent = Umbraco.TypedContent(featured.First().Id);
@@ -43,8 +43,8 @@
         {*@
 
 
-    var homeDataIndex = homeData.First().GetChildNodesByType("HomeSliderContent").First();
-    var rows = homeDataIndex.GetChildNodes();
+    var homeDataIndex = homeData.First().GetDescendantNodesByType("HomeSliderContent").First();
+    var rows = homeDataIndex.ChildrenAsList.First().GetChildNodes();
     var alt = string.Empty;
     if (rows.Any())
     {
@@ -91,7 +91,7 @@
             </div>
         </div>
     }
-    var homeDataTreatements = homeData.First().GetChildNodesByType("HomeTreatmentContent").First();
+    var homeDataTreatements = homeData.First().GetDescendantNodesByType("HomeTreatmentContent").First();
     var treatmentRows = homeDataTreatements.GetChildNodes();
 
     <div class="treatments clearfix">

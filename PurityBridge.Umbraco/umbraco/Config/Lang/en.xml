@@ -36,7 +36,7 @@
     <key alias="translate">Translate</key>
     <key alias="update">Update</key>
     <key alias="defaultValue">Default value</key>
-  </area>
+  <key alias="CreateNode">Create Node</key><key alias="uMirrorExport">Export project</key><key alias="uMirrorImport">Import project</key><key alias="uMirrorStart">Start</key></area>
   <area alias="assignDomain">
     <key alias="permissionDenied">Permission denied.</key>
     <key alias="addNew">Add new Domain</key>
@@ -731,7 +731,7 @@ To manage your website, simply open the umbraco back office and start adding con
     <key alias="translation">Translation</key>
     <key alias="users">Users</key>
     <key alias="help" version="7.0">Help</key>
-  </area>
+  <key alias="uMirror">uMirror</key></area>
   <area alias="settings">
     <key alias="defaulttemplate">Default template</key>
     <key alias="dictionary editor egenskab">Dictionary Key</key>

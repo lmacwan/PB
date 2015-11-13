@@ -24,56 +24,6 @@ $(document).ready(function () {
     /* retina-animating-blocks */
     if (!is_mobile()) {
         window.scrollTo(0, 1);
-        //var control = $.superscrollorama({
-        //    triggerAtCenter: true,
-        //    playoutAnimations: true,
-        //    reverse: false
-        //});
-        //var ofs = $(window).height() / 2;
-
-        ///* 1st animating block */
-        //control.addTween(target = '#animating-block-1',
-        //        TweenMax.from($('#animating-block-1 img[src*="iphone"]'), 0.5, { css: { left: '0', opacity: '0' } }), duration = 0, offset = -ofs);
-        //control.addTween(target = '#animating-block-1',
-        //        TweenMax.from($('#animating-block-1 img[src*="ipad"]'), 0.5, { css: { right: '0', opacity: '0' } }), duration = 0, offset = -ofs);
-        //control.addTween(target = '#animating-block-1',
-        //        TweenMax.from($('#animating-block-1 img[src*="monitor"]'), 0.5, { css: { opacity: '0' } }), duration = 0, offset = -ofs);
-        ///* 1st animating block */
-
-
-        ///* 2nd animating block */
-        //control.addTween(target = "#animating-block-3",
-        //    TweenMax.from($("#animating-block-3 img[src*='mac']"), 1, { css: { 'margin-top': '50%', opacity: 0 } }), offset = -ofs);
-        ///* 2nd animating block */
-
-        ///* 3rd animating block */
-        //control.addTween(target = "#animating-block-4",
-        //    TweenMax.from($('#animating-block-4 img[src*="color-6"]'), 0.2, { css: { 'left': '50%', opacity: '0' } }), offset = -ofs);
-        //control.addTween(target = "#animating-block-4",
-        //    TweenMax.from($('#animating-block-4 img[src*="color-5"]'), 0.2, { css: { 'left': '50%', opacity: '0', display: 'none' }, delay: 0.15 }), offset = -ofs);
-        //control.addTween(target = "#animating-block-4",
-        //    TweenMax.from($('#animating-block-4 img[src*="color-4"]'), 0.2, { css: { 'left': '50%', opacity: '0', display: 'none' }, delay: 0.35 }), offset = -ofs);
-        //control.addTween(target = "#animating-block-4",
-        //    TweenMax.from($('#animating-block-4 img[src*="color-3"]'), 0.2, { css: { 'left': '50%', opacity: '0', display: 'none' }, delay: 0.55 }), offset = -ofs);
-        //control.addTween(target = "#animating-block-4",
-        //    TweenMax.from($('#animating-block-4 img[src*="color-2"]'), 0.2, { css: { 'left': '50%', opacity: '0', display: 'none' }, delay: 0.75 }), offset = -ofs);
-        //control.addTween(target = "#animating-block-4",
-        //    TweenMax.from($('#animating-block-4 img[src*="color-1"]'), 0.2, { css: { 'left': '50%', opacity: '0', display: 'none' }, delay: 0.95 }), offset = -ofs);
-        ///* 3rd animating block */
-
-        ///* 4th animating block */
-        //control.addTween(target = "#animating-block-7",
-        //    TweenMax.from($("#animating-block-7 img[src*='one-page']"), 1, { css: { width: '0' } }), offset = -ofs);
-        ///* 4th animating block */
-
-        ///* 5th animating block */
-
-        ///* 5th animating block */
-        //control.addTween(target = "#animating-block-8",
-        //    TweenMax.from($("#animating-block-8 img[src*='LayerSlider']"), 1, { css: { 'transform': 'rotateY(180deg)' } }), offset = -ofs);
-        ///* 5th animating block */
-
-
     }
     /* retina-animating-blocks */
 

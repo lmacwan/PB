@@ -23,7 +23,6 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <!--/ metas -->
     <!-- styles -->
-    @*    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>*@
     <link href="/Content/css/layerslider.css" rel="stylesheet" />
     <link href="/Content/css/fullwidth/skin.css" rel="stylesheet" />
     <link href="~/Content/css/font-awesome.css" rel="stylesheet" />
@@ -32,27 +31,24 @@
 
     <link href="~/Content/css/composer.css" rel="stylesheet" />
     <link href="/Content/css/styles.css" rel="stylesheet" />
-    <link href="~/Content/tuner/css/styles.css" rel="stylesheet" />
     <link href="/Content/css/Common.css" rel="stylesheet" />
     @RenderSection("styles", required: false)
     <!--/ styles -->
     <!--[if lt IE 9]><script src="js/html5.js")<![endif]-->
+    <script src="/Scripts/js/jquery.min.js"></script>
 </head>
 <body>
     <div class="page">
         @{ Html.RenderPartial("_HeaderPartial"); }
-
-
         @{ Html.RenderPartial("_SearchPartial"); }
         @{ Html.RenderPartial("_PageTitlePartial"); }
-        @Html.Partial("_SliderPartial", uQuery.GetCurrentNode())
+        @*@{ Html.Partial("_SliderPartial"); }*@
         @RenderSection("ImageSection", false)
         <!-- page content -->
         <main>
             @RenderSection("HighlightsSection", false)
             @RenderSection("FeaturedSection", false)
 
-            @*@if (!(Model.Content.GetPropertyValue<bool>("spa")) && !(Request.RawUrl.Contains("/home")) && !(Request.RawUrl.Contains("/contact")))*@
             @if (!(Model.Content.Url.Contains("/home")) && !(Request.RawUrl.Contains("/the-contact")))
             {
                 <div class="grid-row">
@@ -75,14 +71,12 @@
             //int preValueID = (int)docMfsFeedSettings.getProperty("themeColor").Value;
 
             // Retrieve Text value
-            string colourTextValue = umbraco.library.GetPreValueAsString(
-            Convert.ToInt32(docMfsFeedSettings.getProperty("themeColor").Value));
+            string colourTextValue = umbraco.library.GetPreValueAsString(Convert.ToInt32(docMfsFeedSettings.getProperty("themeColor").Value));
         }
 
         <link href="/Content/css/color-@(colourTextValue.ToLower()).css" rel="stylesheet" />
     </div>
     <!-- scripts -->
-    <script src="/Scripts/js/jquery.min.js"></script>
     <script src="/Scripts/restive.min.js"></script>
     <script src="/Scripts/js/jquery-ui.min.js"></script>
     <script src="/Scripts/js/jquery.migrate.min.js"></script>
