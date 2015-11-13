@@ -4483,3 +4483,7 @@ System.Net.WebException: The remote server returned an error: (404) Not Found.
 System.Net.WebException: The remote server returned an error: (404) Not Found.
    at System.Net.HttpWebRequest.GetResponse()
    at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-11-13 17:25:46,432 [113] ERROR umbraco.presentation.publishingService - [Thread 202] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
