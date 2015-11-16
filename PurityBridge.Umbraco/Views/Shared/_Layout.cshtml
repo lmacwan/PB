@@ -49,7 +49,7 @@
             @RenderSection("HighlightsSection", false)
             @RenderSection("FeaturedSection", false)
 
-            @if (!(Model.Content.Url.Contains("/home")) && !(Request.RawUrl.Contains("/the-contact")))
+            @if (!(Model.Content.Url.Contains("/home")) && !(Model.Content.Url.Contains("/clinic")) && !(Request.RawUrl.Contains("/the-contact")))
             {
                 <div class="grid-row">
                     @RenderSection("LeftSideBar", false)

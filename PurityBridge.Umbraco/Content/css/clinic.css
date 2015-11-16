@@ -32,13 +32,30 @@ main .grid-row:first-child {
     width: 344px;
 }
 
-.grid.cs-style-3 .grid-col:first-child li {
+.grid {
+    margin-left: 20%;
+}
+
+.widget-title {
+    margin: auto;
+    width: 1170px;
+    font-size: 18px;
+}
+
+#page-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+/*.grid.cs-style-3 .grid-col:first-child li {
     float: right;
 }
 
 .grid.cs-style-3 .grid-col:last-child li {
     float: left;
-}
+}*/
 
 /* ---------- */
 /*    768     */
@@ -57,27 +74,27 @@ main .grid-row:first-child {
 .nb567 .grid, .nb626 .grid, .nb320 .grid {
     margin-top: -45px;
 }
-.nb567 .grid li, .nb626 .grid li, .nb320 .grid li {
-    margin-top: 30px;
-}
 
-/* ---------- */
-/*    320     */
-/* ---------- */
-.nb320 .grid figure {
-    height: 200px;
-    width: 250px;
-}
+    .nb567 .grid li, .nb626 .grid li, .nb320 .grid li {
+        margin-top: 30px;
+    }
 
-.nb320 .grid.cs-style-3 .grid-col li {
-    float: initial !important;
-}
+    /* ---------- */
+    /*    320     */
+    /* ---------- */
+    .nb320 .grid figure {
+        height: 200px;
+        width: 250px;
+    }
 
-.nb320 .grid figure img {
-    max-width: 250px;
-}
+    .nb320 .grid.cs-style-3 .grid-col li {
+        float: initial !important;
+    }
+
+    .nb320 .grid figure img {
+        max-width: 250px;
+    }
 
 .nb320 .cs-style-3 figcaption {
     width: 248px;
 }
-

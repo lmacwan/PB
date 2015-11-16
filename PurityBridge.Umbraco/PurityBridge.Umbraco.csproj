@@ -16,7 +16,7 @@
     <AssemblyName>PurityBridge.Umbraco</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -3282,6 +3282,7 @@
     </Content>
     <Content Include="Views\MacroPartials\_RegisterForEvent.cshtml" />
     <Content Include="Views\MacroPartials\MainNavigationPartial.cshtml" />
+    <Content Include="Views\Clinic.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PurityBridge.Live\PurityBridge.Live.csproj">
@@ -3400,9 +3401,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63508</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/PurityBridge.Umbraco</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost:9999</IISAppRootUrl>
+          <IISUrl>http://localhost:63508/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

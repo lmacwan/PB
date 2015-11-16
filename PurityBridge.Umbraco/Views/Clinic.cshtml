@@ -1,0 +1,31 @@
+﻿@using Umbraco.Core.Models
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.Models.RenderModel>
+<link href="~/Content/css/clinic.css" rel="stylesheet" />
+@{
+    Layout = "Shared/_Layout.cshtml";
+    ViewBag.UrlPrefix = string.Empty;
+
+    IPublishedContent clinicData = null;
+    var clinicDataNodes = Model.Content.Descendants("ClinicPageContent");
+    if (clinicDataNodes.Any())
+    {
+        clinicData = clinicDataNodes.First();
+        var slider = clinicData.Descendants("Slider").First();
+        var highlights = clinicData.Descendants("Highlights").First();
+
+        @Html.Partial("_SliderPartial", slider)
+        @Html.Partial("_HighlightsPartial", highlights)
+    }
+}
+
+<h2 class="widget-title">
+    @clinicData.GetPropertyValue("pageHeading")
+</h2>
+<div id="page-content" class="grid-row beautify">
+    <div class="grid-col grid-col-6">
+        @clinicData.GetPropertyValue("leftColumnContent")
+    </div>
+    <div class="grid-col grid-col-6">
+        @clinicData.GetPropertyValue("rightColumnContent")
+    </div>
+</div>
