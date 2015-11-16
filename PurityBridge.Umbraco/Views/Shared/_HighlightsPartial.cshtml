@@ -1,38 +1,49 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<IPublishedContent>
 @{
-    IEnumerable<IPublishedContent> highlights = null;
+    IEnumerable<IPublishedContent> children = null;
 }
 <link href="~/Content/css/benefits.css" rel="stylesheet" />
 @if (Model.Content.DocumentTypeAlias == "Highlights")
 {
-    highlights = Model.Content.Descendants("HighlightItem").Where("Visible");
-    if (highlights.Any())
-    {
-        var gridCol = 12 / highlights.Count();
-        
-        <div class="grid-row">
-            <!-- benefits -->
-            <ul class="grid cs-style-3">
-                @foreach (IPublishedContent highlightItem in highlights)
-                {
-                    var url = string.IsNullOrEmpty(highlightItem.GetPropertyValue("relatedTo") as string)
-                                ? "/underconstruction"
-                                : Umbraco.TypedContent(highlightItem.GetPropertyValue<int>("relatedTo")).Url;
-                    var alt = highlightItem.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
-                    <li class="grid-col grid-col-@gridCol">
-                        <figure class="cs-hover">
-                            <img alt="@alt" src="@Umbraco.TypedContent(highlightItem.Id).GetCropUrl("thumbnail", "thumb")">
+    children = Model.Content.Descendants("HighlightItem").Where("Visible");
+}
+else if (Model.Content.DocumentTypeAlias == "TreatmentsSubPage")
+{
+    children = Model.Content.Descendants("TreatmentCategory").Where("Visible");
+}
 
-                            <a href="@url">
-                                <figcaption>
-                                    <h3>@highlightItem.GetPropertyValue("heading")</h3>
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <p></p>
-                    </li>
-                }
-            </ul>
-        </div>
-    }
+@if (children.Any())
+{
+    @renderChildren(children)
+}
+
+@helper renderChildren(IEnumerable<IPublishedContent> children)
+{
+
+    var gridCol = 12 / children.Count();
+
+    <div class="vc_row-fluid" id="highlights">
+        <!-- benefits -->
+        <ul class="grid cs-style-3">
+            @foreach (IPublishedContent highlightItem in children)
+            {
+                var url = string.IsNullOrEmpty(highlightItem.GetPropertyValue("relatedTo") as string)
+                            ? "/underconstruction"
+                            : Umbraco.TypedContent(highlightItem.GetPropertyValue<int>("relatedTo")).Url;
+                var alt = highlightItem.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
+                <li class="vc_span@(gridCol)">
+                    <figure class="cs-hover">
+                        <img alt="@alt" src="@Umbraco.TypedContent(highlightItem.Id).GetCropUrl("thumbnail", "thumb")">
+
+                        <a href="@url">
+                            <figcaption>
+                                <h3>@highlightItem.GetPropertyValue("heading")</h3>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <p></p>
+                </li>
+            }
+        </ul>
+    </div>
 }

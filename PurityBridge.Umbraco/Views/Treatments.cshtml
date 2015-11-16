@@ -1,1 +1,31 @@
-﻿
+﻿@using Umbraco.Core.Models
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.Models.RenderModel>
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.UrlPrefix = string.Empty;
+    IPublishedContent treatmentsData = null;
+    var treatmentsNode = Model.Content.Descendants("TreatmentsPageContent");
+}
+<style>
+    .grid li {
+        width: 265px !important;
+    }
+</style>
+@if (treatmentsNode.Any())
+{
+    treatmentsData = treatmentsNode.First();
+    IPublishedContent highlights = null;
+    var highlightsNodes = Model.Content.Descendants("TreatmentsSubPage");
+    if (highlightsNodes.Any())
+    {
+        highlights = highlightsNodes.First();
+    }
+    if (highlights != null)
+    {
+        @Html.Partial("_HighlightsPartial", highlights);
+    }
+
+    <div id="photo-content" class="vc_row-fluid beautify">
+        @treatmentsData.GetPropertyValue("treatmentsTextEditor")
+    </div>
+}

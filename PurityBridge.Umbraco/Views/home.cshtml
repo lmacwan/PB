@@ -47,13 +47,13 @@
                 <div class="tab">
                     @foreach (var column in rows)
                     {
-                        alt = column.GetProperty("thumbnailImageAltValue").Value as string ?? string.Empty;
+                        alt = column.GetPropertyValue("thumbnailImageAltValue") as string ?? string.Empty;
                         <div class="box @classVisible">
                             @{
                         classVisible = "";
                             }
-                            <h4>@column.GetProperty("heading")</h4>
-                            <p>@Html.Raw(column.GetProperty("text").Value.ToString())</p>
+                            <h4>@column.GetPropertyValue("heading")</h4>
+                            <p>@Html.Raw(column.GetPropertyValue("text").ToString())</p>
                             <img src="@Umbraco.TypedContent(column.Id).GetCropUrl("photo", "home")" alt="@alt" class="img-hide">
                         </div>
                     }
@@ -80,29 +80,15 @@
                 @homeData.GetPropertyValue("treatmentHeading")
             </div>
         </div>
-        <div class="grid-row">
-
-            <ul class="grid cs-style-3">
-                @foreach (var treatmentCategory in uQuery.GetNodesByType("TreatmentsData").First().GetDescendantNodesByType("TreatmentsCategoryData"))
-                {
-                    var url = "/treatments/" + treatmentCategory.UrlName; umbraco.NodeFactory.Node matchedNode = uQuery.GetNodeByUrl(url); alt = treatmentCategory.GetProperty<string>("thumbnailImageAltValue") ?? string.Empty;
-                    <li class="grid-col grid-col-3">
-                        <figure class="cs-hover">
-                            <img class="treatment-image" src="@Umbraco.TypedContent(treatmentCategory.Id).GetCropUrl("thumbnail", "thumb")" alt="@alt" />
-
-                            <a href="@url">
-                                <figcaption>
-                                    <h3>@matchedNode.GetProperty("heading")</h3>
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <p></p>
-                    </li>
-                }
-            </ul>
-        </div>
+        
         @{
-    var videoUrl = string.Format("http://www.youtube.com/embed/{0}?autoplay=1&loop=1&playlist={0}", (homeData.GetProperty("youTubeVideoId").Value ?? ""));
+            var treatmentCategory = Model.Content.AncestorOrSelf(1).Descendants("TreatmentsSubPage").First();
+        }
+        
+        @Html.Partial("_HighlightsPartial", treatmentCategory)
+
+        @{
+    var videoUrl = string.Format("http://www.youtube.com/embed/{0}?autoplay=1&loop=1&playlist={0}", (homeData.GetPropertyValue("youTubeVideoId") ?? ""));
         }
 
         <div class="grid-row">
@@ -111,7 +97,7 @@
                     <iframe width="420" height="315" src="@videoUrl"></iframe>
                 </div>
                 @{
-    var htmlText = homeData.GetProperty("treatmentContentText").Value;
+    var htmlText = homeData.GetPropertyValue("treatmentContentText");
     htmlText = string.Format("{0}", htmlText.ToString().Replace('\n' + "", "</p><p>"));
                 }
                 @Html.Raw(htmlText)
@@ -122,7 +108,7 @@
     var subscribeUrl = "/umbraco/surface/subscription/SubscribeNewsletter/";
     <div class="newsletter clearfix">
         <div class="wrap">
-            <div class="newsletter-title">@homeData.GetProperty("nsHeading").Value</div>
+            <div class="newsletter-title">@homeData.GetPropertyValue("nsHeading")</div>
             <div class="newsletter-form clearfix">
                 <form method="post" action="@subscribeUrl">
                     <input type="email" class="input-text" placeholder="Your email">
@@ -130,10 +116,10 @@
                 </form>
             </div>
             <p class="subscription-msg"></p>
-            <p> @homeData.GetProperty("nsInfoOnEmail").Value</p>
-            <div style="display:none" id="email-procssing">@homeData.GetProperty("nsMsgProcessing").Value </div>
-            <div style="display:none" id="email-procssing-success">@homeData.GetProperty("nsMsgOnSuccess").Value </div>
-            <div style="display:none" id="email-procssing-error">@homeData.GetProperty("nsMsgOnError").Value </div>
+            <p> @homeData.GetPropertyValue("nsInfoOnEmail")</p>
+            <div style="display:none" id="email-procssing">@homeData.GetPropertyValue("nsMsgProcessing") </div>
+            <div style="display:none" id="email-procssing-success">@homeData.GetPropertyValue("nsMsgOnSuccess") </div>
+            <div style="display:none" id="email-procssing-error">@homeData.GetPropertyValue("nsMsgOnError") </div>
         </div>
     </div>
 }

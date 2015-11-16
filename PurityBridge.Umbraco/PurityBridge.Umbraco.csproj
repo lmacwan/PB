@@ -378,6 +378,7 @@
     <Content Include="Content\css\textcontent.css" />
     <Content Include="Content\css\testimonial.css" />
     <Content Include="Content\css\treatment.css" />
+    <Content Include="Content\css\treatments.css" />
     <Content Include="Content\fonts\fontawesome-webfontba72.svg" />
     <Content Include="Content\images\logo5.png" />
     <Content Include="Content\images\logo1.png" />
@@ -560,8 +561,6 @@
     <Content Include="macroScripts\NavigationScript.cshtml" />
     <Content Include="macroScripts\YouTubeVideoScript.cshtml" />
     <Content Include="Content\css\demo\img\Thumbs.db" />
-    <Content Include="App_Data\access.config" />
-    <Content Include="App_Data\umbraco.config" />
     <Content Include="Data\DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
@@ -3283,6 +3282,8 @@
     <Content Include="Views\MacroPartials\_RegisterForEvent.cshtml" />
     <Content Include="Views\MacroPartials\MainNavigationPartial.cshtml" />
     <Content Include="Views\Clinic.cshtml" />
+    <Content Include="Views\Treatments.cshtml" />
+    <Content Include="Views\MacroPartials\Text With Heading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PurityBridge.Live\PurityBridge.Live.csproj">
@@ -3379,7 +3380,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\NewsLetters\2015\May\" />
+    <Folder Include="App_Data\" />
     <Folder Include="BusinessLogic\" />
     <Folder Include="uSync\" />
   </ItemGroup>

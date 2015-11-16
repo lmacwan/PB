@@ -10,75 +10,78 @@
 
     .grid li {
         display: inline-block;
-        margin-left: 8px;
+        /* margin-left: 8px; */
         position: relative;
         text-align: left;
+        /* margin-left: 10px; */
+        margin: auto !important;
+        padding: 8px;
     }
 
         .grid li:first-child {
             margin-left: 0;
         }
 
-    .treatments .grid li {
-        width: 226px;
-    }
+.treatments .grid li {
+       width: 248px;
+}
 
-    .grid figure {
-        border-left: 4px solid #00aba5;
-        border-radius: 40px 40px 0 0;
-        border-right: 4px solid #00aba5;
-        border-top: 8px solid #00aba5;
-        margin: 0;
+.grid figure {
+    border-left: 4px solid #00aba5;
+    border-radius: 40px 40px 0 0;
+    border-right: 4px solid #00aba5;
+    border-top: 8px solid #00aba5;
+    margin: 0;
+    position: relative;
+}
+
+    .grid figure img {
+        border-radius: 30px 30px 0 0;
+        display: block;
+        max-width: 100%;
         position: relative;
+        max-width: 100%;
     }
 
-        .grid figure img {
-            border-radius: 30px 30px 0 0;
-            display: block;
-            max-width: 100%;
-            position: relative;
-            max-width: 100%;
-        }
+.grid figcaption {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+    border-top: 1px solid #00aba5;
+    color: #000; /* left: 0; */
+    padding-top: 20px;
+    position: absolute; /* top: 0; */
+}
 
-    .grid figcaption {
-        background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
-        border-top: 1px solid #00aba5;
-        color: #000; /* left: 0; */
-        padding-top: 20px;
-        position: absolute; /* top: 0; */
-    }
+.grid li p {
+    border-bottom: 3px solid #00aba5;
+    border-color: #00aba5;
+    line-height: 18px;
+    padding-bottom: 14px;
+    position: relative;
+}
 
-    .grid li p {
-        border-bottom: 3px solid #00aba5;
-        border-color: #00aba5;
-        line-height: 18px;
-        padding-bottom: 14px;
-        position: relative;
-    }
+.grid figcaption h3 {
+    color: #555;
+    font-size: 18px;
+    font-weight: bold;
+    left: 170px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    text-align: center; /*letter-spacing: 1px;*/
+}
 
-    .grid figcaption h3 {
-        color: #555;
-        font-size: 18px;
-        font-weight: bold;
-        left: 170px;
-        line-height: 23px;
-        margin: 0;
-        padding: 0;
-        text-align: center; /*letter-spacing: 1px;*/
-    }
+.grid figcaption span:before {
+    content: "by ";
+}
 
-    .grid figcaption span:before {
-        content: "by ";
-    }
-
-    .grid figcaption a {
-        background: none repeat scroll 0 0 #ed4e6e;
-        border-radius: 2px;
-        color: #fff;
-        display: inline-block;
-        padding: 5px 10px;
-        text-align: center;
-    }
+.grid figcaption a {
+    background: none repeat scroll 0 0 #ed4e6e;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+}
 
 .cs-style-3 figure {
     overflow: hidden;
@@ -123,4 +126,8 @@ a {
 
 .clearfix:after {
     clear: both;
+}
+
+#highlights {
+    padding: 0 16% !important;
 }
