@@ -178,3 +178,8 @@ FakesAssemblies/
 /PurityBridge.Umbraco/App_Data/Logs
 /PurityBridge.Umbraco/App_Data/TEMP
 /PurityBridge.Live/umbraco/Images
+PurityBridge.Umbraco/App_Data/Logs/UmbracoTraceLog.txt
+PurityBridge.Umbraco/App_Data/TEMP/ExamineIndexes/External/Index/segments.gen
+PurityBridge.Umbraco/App_Data/TEMP/ExamineIndexes/Internal/Index/segments.gen
+PurityBridge.Umbraco/App_Data/TEMP/ExamineIndexes/InternalMember/Index/segments.gen
+PurityBridge.Umbraco/App_Data/umbraco.config

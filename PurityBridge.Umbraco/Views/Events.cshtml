@@ -70,34 +70,44 @@
     </script>
 }
 <div id="page-content" class="grid-col grid-col-9">
-    <div class="event page-header">
-        @*<ul>
-            <li class="active">
-                Upcoming Events
-            </li>
-            <li>
-                Archived Events
-            </li>
-        </ul>*@
-    </div>
+    <a class="more" href="javascript:void(0)">
+        <i class="fa fa-bars"></i>
+    </a>
+    @*<div class="event page-header">
+    <ul>
+         <li class="active">
+             Upcoming Events
+         </li>
+         <li>
+             Archived Events
+         </li>
+     </ul>
+    </div>*@
     <div class="event page-detail">
     </div>
     @*<div class="event page-footer">
         <span class="loadmore">&nbsp;</span>
     </div>*@
 </div>
-<div id="page-sidebar-right" class="grid-col grid-col-3">
+<div id="page-sidebar-right" class="grid-col grid-col-3 sidebar" data-sidebar="1023">
+    <a class="more" href="javascript:void(0)">
+        <i class="fa fa-times"></i>
+    </a>
     @Html.Partial("_RegisterForEvent")
 </div>
 
 @Html.Partial("_EventsTemplate")
 
 <script>
-    function registerForEvent() {
-        debugger;
-        var t = $(this).data("data-title");
-        if (t) {
-            $("section.widget-appointment #event-name").val(t);
+    function registerForEvent(eventName) {
+        if (eventName) {
+            var wdgAppointment = $("section.widget-appointment");
+            var txtEventName = wdgAppointment.find("#event-name");
+            txtEventName.val(eventName);
+            if ($(window).width() <= parseInt($(".sidebar").first().attr('data-sidebar'))) {
+                $(".pbElement:visible").click();
+            }
+            document.getElementById("page-sidebar-right").scrollIntoView();
         }
         return false;
     }

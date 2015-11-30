@@ -115,7 +115,7 @@ function OnWindowLoaded() {
 function OnWindowResized() {
     /* Sidebar */
     var pageId = $('head meta[id=pageId]').attr('content');
-    if (pageId == "2621") {
+    if (pageId == "2621" || pageId== "4795") {
         BindSidebarClick();
     }
     else if (pageId == "2000") {
@@ -343,7 +343,7 @@ function BindSidebarClick() {
                         mainContent.css({ paddingBottom: (activeSidebar.height() - mainContent.height()) + 80 })
                     }
                     activeSidebar.toggleClass('opened');
-                    activeSidebar.css({ marginLeft: -(activeSidebar.width() + 80), top: mainContent.position().top });
+                    activeSidebar.css({ marginLeft: -(activeSidebar.width() + 80), paddingRight: (activeSidebar.width() + 80), top: mainContent.position().top });
                 });
             }
             else {

@@ -114,9 +114,9 @@ main > .grid-row {
     }
 
         .event.page-detail .event-image img {
-            /* width: 100%; */
+            /*width: 100%;
+            max-width: 95%;*/ 
             height: 130px;
-            min-height: 100% !important;
             border: double 6px #aeaeae;
         }
 
@@ -163,4 +163,34 @@ main > .grid-row {
         .event-footer .event-venue address {
             display: inline;
         }
+
+/* 1024 */
+.nb1024 .widget-appointment i, i.appointment {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nb1024 .widget-appointment input {
+    height: 40px;
+    padding: 13px 10px 13px 60px;
+}
+
+/* SIDEBAR */
+.sidebar.active.opened {
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index:9999;
+}
+
+/* 1023
+    965
+*/
+.nb1023 #page-content,
+.nb768 #page-content {
+    width: 100% !important;
+    border: none;
+}
+
+
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
