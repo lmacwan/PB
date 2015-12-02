@@ -17,23 +17,24 @@ main .grid-row:first-child {
 .grid li {
     height: initial;
     width: initial;
+    max-width: 366px;
 }
 
 .grid figure {
-    height: 270px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
 }
 
     .grid figure img {
         max-width: 350px;
     }
 
-.cs-style-3 figcaption {
+/*.cs-style-3 figcaption {
     width: 344px;
-}
+}*/
 
 .grid {
-    margin-left: 20%;
+    margin: 0 20%;
 }
 
 .widget-title {

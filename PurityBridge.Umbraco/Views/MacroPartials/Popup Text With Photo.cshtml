@@ -1,0 +1,38 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var itemHeading = Model.MacroParameters["Heading"].ToString();
+    var itemPartialText = Model.MacroParameters["PartialText"].ToString();
+    var itemFullText = Model.MacroParameters["FullText"].ToString();
+    var itemImageUrl = Umbraco.TypedMedia(Model.MacroParameters["ImageUrl"].ToString()).Url;
+    var itemImageAltValue = Model.MacroParameters["ImageAltValue"].ToString();
+    var uniqueValue = string.Join(string.Empty, itemHeading.Split(new string[] { " ", "-", "(", ")", "/", "\\" }, StringSplitOptions.RemoveEmptyEntries).ToArray());
+
+    var content = string.Format("<h1></h1><p class='capitalized'>{0}</p>", itemFullText.Replace('\n' + "", "</p><p>").Replace("<<.>>", "<i class='fa fa-circle'> </i>"));
+
+}
+
+<section class="widget right item">
+    @renderItem(itemHeading, itemImageUrl, itemImageAltValue, itemPartialText)
+    <div class="wpb_wrapper leftwarpper">
+        <a class="read-more fancybox" href="#div-@uniqueValue"> Read More <i class="more fa fa-mail-forward"></i></a>
+    </div>
+</section>
+
+<div id="div-@uniqueValue" style="display: none; width: 500px !important;">
+    <section class="widget right">
+        @renderItem(itemHeading, itemImageUrl, itemImageAltValue, itemFullText)
+    </section>
+</div>
+
+@helper renderItem(string itemHeading, string itemImageUrl, string itemImageAltValue, string text)
+{
+    <div class="widget-title">
+        @itemHeading
+    </div>
+    <div class="wpb_text_column wpb_content_element">
+        <div class="wpb_wrapper">
+            <img src="@itemImageUrl" alt="@itemImageAltValue" class="align" />
+        </div>
+        @(text)
+    </div>
+}

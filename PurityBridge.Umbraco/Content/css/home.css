@@ -134,6 +134,7 @@ a {
     margin-bottom: 28px;
     text-transform: uppercase;
     font-size: 28px;
+    text-align: center;
 }
 
 .newsletter-form {
@@ -221,6 +222,9 @@ input[type="button"], input[type="submit"], input[type="reset"], button {
     display: none;
 }
 
+.grid li {
+    margin: auto !important;
+}
 
 .treatments {
     background: none repeat scroll 0 0 #ffffff;
@@ -228,25 +232,20 @@ input[type="button"], input[type="submit"], input[type="reset"], button {
     text-align: justify;
 }
 
-
-    .treatments .grid {
-        margin-top: 10px;
+    .treatments .grid figure {
+        border-left: 1px solid #00aba5;
+        border-radius: 30% 30% 0 0;
+        border-right: 1px solid #00aba5;
+        border-top: 3px solid #00aba5;
     }
 
-        .treatments .grid figure {
-            border-left: 1px solid #00aba5;
-            border-radius: 30% 30% 0 0;
-            border-right: 1px solid #00aba5;
-            border-top: 3px solid #00aba5;
+        .treatments .grid figure img {
+            border-radius: 10% 10% 0 0;
         }
 
-            .treatments .grid figure img {
-                border-radius: 10% 10% 0 0;
-            }
-
-        .treatments .grid li p {
-            border-bottom: 1px solid #00aba5;
-        }
+    .treatments .grid li p {
+        border-bottom: 1px solid #00aba5;
+    }
 
 
 
@@ -259,27 +258,31 @@ input[type="button"], input[type="submit"], input[type="reset"], button {
         padding-top: 10px;
     }
 
-.treatments .treatment-text {
-	margin-top: 20px;
-}
+    /*.treatments .treatment-text {
+        margin-top: 20px;
+    }*/
 
-.treatments .treatment-text p:first-child {
-	padding-top: 0px;
-}
+        .treatments .treatment-text p:first-child {
+            padding-top: 0px;
+        }
 
-.treatments .treatment-text .welcome-video {
-	display: inline;
-	float: left;
-	width : 600px;
-	max-width: 100%;
-	margin: 30px 20px 10px 0;
-    border: double 7px #00aba5;
-}
+        .treatments .treatment-text .welcome-video {
+            display: inline;
+            float: left;
+            width: 600px;
+            max-width: 100%;
+            margin: 30px 20px 10px 0;
+            border: double 7px #00aba5;
+        }
 
     .treatments .treatment-link {
         text-decoration: none;
         background: none;
         cursor: pointer;
+    }
+
+    main > #highlights {
+        margin-top: -50px;
     }
 
 /* 1440 */

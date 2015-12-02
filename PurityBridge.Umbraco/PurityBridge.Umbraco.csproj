@@ -314,20 +314,6 @@
     <Content Include="App_Code\SmartBlogService.cs">
       <SubType>Component</SubType>
     </Content>
-    <Compile Include="Data\DataSet1.cs">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Data\DataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ProjectDataSource.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ProjectDataSource.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Events\RegisterEvents.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -543,8 +529,6 @@
     <Content Include="css\dummy.txt" />
     <Content Include="css\events.css" />
     <Content Include="css\Main.SmartBlog.css" />
-    <Content Include="Data\tw.sdf" />
-    <Content Include="Data\XMLFile1.xml" />
     <Content Include="default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -561,29 +545,7 @@
     <Content Include="macroScripts\NavigationScript.cshtml" />
     <Content Include="macroScripts\YouTubeVideoScript.cshtml" />
     <Content Include="Content\css\demo\img\Thumbs.db" />
-    <Content Include="Data\DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Content>
     <Content Include="config\SmartBlog.config" />
-    <None Include="Data\DataSet1.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
-    </None>
-    <Content Include="Data\DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Content>
-    <Content Include="Data\ProjectDataSource.xsc">
-      <DependentUpon>ProjectDataSource.xsd</DependentUpon>
-    </Content>
-    <None Include="Data\ProjectDataSource.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ProjectDataSource.Designer.cs</LastGenOutput>
-    </None>
-    <Content Include="Data\ProjectDataSource.xss">
-      <DependentUpon>ProjectDataSource.xsd</DependentUpon>
-    </Content>
     <None Include="Properties\PublishProfiles\PurityBridge.pubxml" />
     <None Include="Properties\PublishProfiles\Twaesthetics.com.pubxml" />
     <None Include="Properties\PublishProfiles\VidaHost.pubxml" />
@@ -3284,6 +3246,8 @@
     <Content Include="Views\Clinic.cshtml" />
     <Content Include="Views\Treatments.cshtml" />
     <Content Include="Views\MacroPartials\Text With Heading.cshtml" />
+    <Content Include="Views\Team.cshtml" />
+    <Content Include="Views\MacroPartials\Popup Text With Photo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PurityBridge.Live\PurityBridge.Live.csproj">
@@ -3382,6 +3346,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="BusinessLogic\" />
+    <Folder Include="Data\" />
     <Folder Include="uSync\" />
   </ItemGroup>
   <PropertyGroup>

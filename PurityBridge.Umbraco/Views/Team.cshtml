@@ -1,0 +1,24 @@
+﻿@using Umbraco.Core.Models
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.Models.RenderModel>
+@{
+    Layout = "Layout.cshtml";
+    var teamNode = Model.Content.Descendants("TeamPageContent").First();
+}
+<link href="~/Content/css/textcontent.css" rel="stylesheet" />
+@{
+    var specialistsColumns = teamNode.Descendants("Column");
+}
+@if (specialistsColumns.Any())
+{
+    string content = string.Empty;
+    int spanCol = 12 / specialistsColumns.Count();
+
+    <div class="vc_row-fluid spannedItems">
+        @foreach (var specialistCol in specialistsColumns)
+        {
+            <div class="vc_span@(spanCol)">
+                @specialistCol.GetPropertyValue("columnContent")
+            </div>
+        }
+    </div>
+}

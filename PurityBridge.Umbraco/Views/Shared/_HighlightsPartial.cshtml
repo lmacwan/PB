@@ -14,7 +14,7 @@ else if (Model.Content.DocumentTypeAlias == "TreatmentsSubPage")
 
 @if (children.Any())
 {
-    @renderChildren(children)
+    @renderChildren1(children)
 }
 
 @helper renderChildren(IEnumerable<IPublishedContent> children)
@@ -32,6 +32,37 @@ else if (Model.Content.DocumentTypeAlias == "TreatmentsSubPage")
                             : Umbraco.TypedContent(highlightItem.GetPropertyValue<int>("relatedTo")).Url;
                 var alt = highlightItem.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
                 <li class="vc_span@(gridCol)">
+                    <figure class="cs-hover">
+                        <img alt="@alt" src="@Umbraco.TypedContent(highlightItem.Id).GetCropUrl("thumbnail", "thumb")">
+
+                        <a href="@url">
+                            <figcaption>
+                                <h3>@highlightItem.GetPropertyValue("heading")</h3>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <p></p>
+                </li>
+            }
+        </ul>
+    </div>
+}
+
+@helper renderChildren1(IEnumerable<IPublishedContent> children)
+{
+
+    var divWidth = Math.Round(100.0 / children.Count(), 2) - 1;
+
+    <div class="grid-row" id="highlights">
+        <!-- benefits -->
+        <ul class="grid cs-style-3">
+            @foreach (IPublishedContent highlightItem in children)
+            {
+                var url = string.IsNullOrEmpty(highlightItem.GetPropertyValue("relatedTo") as string)
+                            ? "/underconstruction"
+                            : Umbraco.TypedContent(highlightItem.GetPropertyValue<int>("relatedTo")).Url;
+                var alt = highlightItem.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
+                <li class="div-col" style="width:@(divWidth)%;min-width:200px;">
                     <figure class="cs-hover">
                         <img alt="@alt" src="@Umbraco.TypedContent(highlightItem.Id).GetCropUrl("thumbnail", "thumb")">
 
