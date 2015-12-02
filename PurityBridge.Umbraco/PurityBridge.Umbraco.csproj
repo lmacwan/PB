@@ -3246,8 +3246,8 @@
     <Content Include="Views\Clinic.cshtml" />
     <Content Include="Views\Treatments.cshtml" />
     <Content Include="Views\MacroPartials\Text With Heading.cshtml" />
-    <Content Include="Views\Team.cshtml" />
     <Content Include="Views\MacroPartials\Popup Text With Photo.cshtml" />
+    <Content Include="Views\PhotoItemsPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PurityBridge.Live\PurityBridge.Live.csproj">

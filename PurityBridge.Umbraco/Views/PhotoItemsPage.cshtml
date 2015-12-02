@@ -14,37 +14,37 @@
         <div class="vc_span6">
             @foreach (var specialistItem in specialists.Where(i => i.Index() % 2 == 0))
             {
-                @(renderItemTemplate(specialistItem, specialistItem.GetPropertyValue<string>("partialText")))
+                @(renderItemTemplate(specialistItem))
             }
         </div>
         <div class="vc_span6">
             @foreach (var specialistItem in specialists.Where(i => i.Index() % 2 == 1))
             {
-                @(renderItemTemplate(specialistItem, specialistItem.GetPropertyValue<string>("text")))
+                @(renderItemTemplate(specialistItem))
             }
         </div>
     </div>
 }
 
-@helper renderItemTemplate(IPublishedContent item, string text)
+@helper renderItemTemplate(IPublishedContent item)
 {
     <section class="widget right item">
-        @(renderSpecialistItem(item, text))
+        @(renderPhotoItem(item, item.GetPropertyValue<string>("partialText")))
         <div class="wpb_wrapper leftwarpper">
             <a class="read-more fancybox" href="#@item.Id"> Read More <i class="more fa fa-mail-forward"></i></a>
         </div>
     </section>
 
-    <div id="@item.Id" style="display: none; width: 100%; max-width:500px;">
+    <div id="@item.Id" style="display: none; width: 500px !important;">
         <section class="widget right">
-            @(renderSpecialistItem(item, text))
+            @(renderPhotoItem(item, item.GetPropertyValue<string>("text")))
         </section>
     </div>
 }
 
-@helper renderSpecialistItem(IPublishedContent item, string text)
+@helper renderPhotoItem(IPublishedContent item, string text)
 {
-    var content = string.Format("<h1></h1><p>{0}</p>", text.Replace("<<.>>", "<i class='fa fa-circle'>  </i>"));
+    var content = string.Format("<h1></h1><p class='capitalized'>{0}</p>", text.Replace('\n' + "", "</p><p>").Replace("<<.>>", "<i class='fa fa-circle'>  </i>"));
     var alt = item.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
     <div class="widget-title">
         @item.GetPropertyValue("heading")
