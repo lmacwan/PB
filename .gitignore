@@ -183,3 +183,6 @@ PurityBridge.Umbraco/App_Data/TEMP/ExamineIndexes/External/Index/segments.gen
 PurityBridge.Umbraco/App_Data/TEMP/ExamineIndexes/Internal/Index/segments.gen
 PurityBridge.Umbraco/App_Data/TEMP/ExamineIndexes/InternalMember/Index/segments.gen
 PurityBridge.Umbraco/App_Data/umbraco.config
+/PurityBridge.Umbraco/media
+/PurityBridge.Umbraco/umbraco
+/PurityBridge.Umbraco/App_Data/umbraco.licensing.log.txt

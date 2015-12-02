@@ -2,23 +2,57 @@
 @inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.Models.RenderModel>
 @{
     Layout = "Layout.cshtml";
-    var teamNode = Model.Content.Descendants("TeamPageContent").First();
 }
 <link href="~/Content/css/textcontent.css" rel="stylesheet" />
 @{
-    var specialistsColumns = teamNode.Descendants("Column");
+    var specialists = Model.Content.Descendants("PhotoItem");
 }
-@if (specialistsColumns.Any())
+@if (specialists.Any())
 {
     string content = string.Empty;
-    int spanCol = 12 / specialistsColumns.Count();
-
     <div class="vc_row-fluid spannedItems">
-        @foreach (var specialistCol in specialistsColumns)
-        {
-            <div class="vc_span@(spanCol)">
-                @specialistCol.GetPropertyValue("columnContent")
-            </div>
-        }
+        <div class="vc_span6">
+            @foreach (var specialistItem in specialists.Where(i => i.Index() % 2 == 0))
+            {
+                @(renderItemTemplate(specialistItem, specialistItem.GetPropertyValue<string>("partialText")))
+            }
+        </div>
+        <div class="vc_span6">
+            @foreach (var specialistItem in specialists.Where(i => i.Index() % 2 == 1))
+            {
+                @(renderItemTemplate(specialistItem, specialistItem.GetPropertyValue<string>("text")))
+            }
+        </div>
+    </div>
+}
+
+@helper renderItemTemplate(IPublishedContent item, string text)
+{
+    <section class="widget right item">
+        @(renderSpecialistItem(item, text))
+        <div class="wpb_wrapper leftwarpper">
+            <a class="read-more fancybox" href="#@item.Id"> Read More <i class="more fa fa-mail-forward"></i></a>
+        </div>
+    </section>
+
+    <div id="@item.Id" style="display: none; width: 100%; max-width:500px;">
+        <section class="widget right">
+            @(renderSpecialistItem(item, text))
+        </section>
+    </div>
+}
+
+@helper renderSpecialistItem(IPublishedContent item, string text)
+{
+    var content = string.Format("<h1></h1><p>{0}</p>", text.Replace("<<.>>", "<i class='fa fa-circle'>  </i>"));
+    var alt = item.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
+    <div class="widget-title">
+        @item.GetPropertyValue("heading")
+    </div>
+    <div class="wpb_text_column wpb_content_element">
+        <div class="wpb_wrapper">
+            <img src="@item.GetCropUrl("spannedPhotoItem", "Rectangular")" alt="@alt" class="align" />
+        </div>
+        @Html.Raw(content)
     </div>
 }
