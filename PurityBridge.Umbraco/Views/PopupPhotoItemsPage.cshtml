@@ -29,11 +29,17 @@
 @helper renderItemTemplate(IPublishedContent item)
 {
     <section class="widget right item">
-        @(renderPhotoItem(item, item.GetPropertyValue<string>("text")))
+        @(renderPhotoItem(item, item.GetPropertyValue<string>("partialText")))
         <div class="wpb_wrapper leftwarpper">
-            <a class="read-more" href="#@item.Id"> Read More <i class="more fa fa-mail-forward"></i></a>
+            <a class="read-more fancybox" href="#@item.Id"> Read More <i class="more fa fa-mail-forward"></i></a>
         </div>
     </section>
+
+    <div id="@item.Id" style="display: none; width: 500px !important;">
+        <section class="widget right">
+            @(renderPhotoItem(item, item.GetPropertyValue<string>("text")))
+        </section>
+    </div>
 }
 
 @helper renderPhotoItem(IPublishedContent item, string text)
