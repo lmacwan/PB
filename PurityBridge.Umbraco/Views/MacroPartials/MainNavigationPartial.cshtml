@@ -18,12 +18,19 @@
     <ul class="level-@naviLevel">
         @* For each child page under the home node *@
 
-        @foreach (var childPage in home.Children.Where("Visible").Where("HideInHeader == @0", false))
+        @{
+            var subPageChildren = (home as IPublishedContent).Children.Where(
+                d => (d.ContentType.Alias.IndexOf("Data") == d.ContentType.Alias.LastIndexOf("Data"))
+                    && d.GetPropertyValue<bool>("hideInHeader") == false 
+                    && d.IsVisible() == true);
+        }
+
+        @foreach (var childPage in subPageChildren)
         {
             if (childPage.HasValue("childPages"))
             {
-                <li class="@(childPage.IsAncestorOrSelf(CurrentPage) ? "active" : null)" data-node-id="@childPage.Id">
-                    <a href="@(childPage.IsNotClickable ? "#" : childPage.Url)">
+                <li class="@(childPage.IsAncestorOrSelf(Model.Content) ? "active" : null)" data-node-id="@childPage.Id">
+                    <a href="@(childPage.GetPropertyValue<bool>("isNotClickable") ? "#" : childPage.Url)">
                         <i class="fa fa-plus"></i>
                         @childPage.Name
                     </a>
@@ -39,7 +46,7 @@
             }
             else
             {
-                <li class="@(childPage.IsAncestorOrSelf(CurrentPage) ? "active" : null)" data-node-id="@childPage.Id">
+                <li class="@(childPage.IsAncestorOrSelf(Model.Content) ? "active" : null)" data-node-id="@childPage.Id">
                     <a href="@childPage.Url">@childPage.Name</a>
                 </li>
             }
@@ -57,7 +64,15 @@
 
         @* Add in level for a CSS hook *@
         <ul class="sublevel level-@(naviLevel)">
-            @foreach (var page in pageCollection)
+
+            @{
+        var subPageChildren = pageCollection.Where(
+            d => (d.ContentType.Alias.IndexOf("Data") == d.ContentType.Alias.LastIndexOf("Data"))
+                && d.GetPropertyValue<bool>("hideInHeader") == false
+                && d.IsVisible() == true);
+            }
+
+            @foreach (var page in subPageChildren)
             {
                 if (page.HasValue("childPages"))
                 {

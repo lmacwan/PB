@@ -3249,6 +3249,7 @@
     <Content Include="Views\MacroPartials\Popup Text With Photo.cshtml" />
     <Content Include="Views\PhotoItemsPage.cshtml" />
     <Content Include="Views\PopupPhotoItemsPage.cshtml" />
+    <Content Include="Views\ConditionsWeTreatPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PurityBridge.Live\PurityBridge.Live.csproj">

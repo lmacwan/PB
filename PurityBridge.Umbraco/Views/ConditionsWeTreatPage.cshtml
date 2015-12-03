@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.Models.RenderModel>
+@{
+    Layout = "Layout.cshtml";
+    var conditionsWeTreatData = Model.Content;
+}
+<style>
+    .spannedItems .capitalized:first-letter {
+        color: #fff;
+        display: block;
+        float: left;
+        font-size: 28px;
+        height: 32px;
+        line-height: 32px;
+        margin: 5px 10px 0 0;
+        text-align: center;
+        width: 32px;
+    }
+
+    .spannedItems .wpb_content_element {
+        overflow: hidden;
+        padding-top: 20px;
+    }
+
+    .spannedItems section .wpb_content_element {
+        border-right: 2px solid #00aba5;
+    }
+
+    .fancybox-skin .wpb_text_column.wpb_content_element {
+        padding: 20px 10px;
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: justify;
+    }
+
+    /* 1024 */
+    .nb1024 .align {
+        width: 230px;
+        height: 134px;
+    }
+</style>
+@Html.Partial("_PhotoTextContent", conditionsWeTreatData)

@@ -27,9 +27,9 @@ else if (Model.Content.DocumentTypeAlias == "TreatmentsSubPage")
         <ul class="grid cs-style-3">
             @foreach (IPublishedContent highlightItem in children)
             {
-                var url = string.IsNullOrEmpty(highlightItem.GetPropertyValue("relatedTo") as string)
+                var url = string.IsNullOrEmpty(highlightItem.GetPropertyValue<string>("relatedTo"))
                             ? "/underconstruction"
-                            : Umbraco.TypedContent(highlightItem.GetPropertyValue<int>("relatedTo")).Url;
+                            : Umbraco.TypedContent(highlightItem.GetPropertyValue<string>("relatedTo")).Url;
                 var alt = highlightItem.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
                 <li class="vc_span@(gridCol)">
                     <figure class="cs-hover">
@@ -58,7 +58,7 @@ else if (Model.Content.DocumentTypeAlias == "TreatmentsSubPage")
         <ul class="grid cs-style-3">
             @foreach (IPublishedContent highlightItem in children)
             {
-                var url = string.IsNullOrEmpty(highlightItem.GetPropertyValue("relatedTo") as string)
+                var url = string.IsNullOrEmpty(highlightItem.GetPropertyValue<string>("relatedTo"))
                             ? "/underconstruction"
                             : Umbraco.TypedContent(highlightItem.GetPropertyValue<int>("relatedTo")).Url;
                 var alt = highlightItem.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
