@@ -53,7 +53,8 @@
         .spannedItems .read-more {
             background: none repeat scroll 0 0 #fff;
             border: 2px solid #00aba5;
-            margin-left: 193px;
+            /*margin-left: 193px;*/
+            float: right;
         }
 
         .spannedItems .more {
@@ -133,8 +134,9 @@
             <div class="photo-content">
                 <img class="photo align" src="@spannedPhotoItem.GetCropUrl("spannedPhotoItem", "Landscape")" alt="@alt" />
             </div>
+            <a class="read-more fancybox" data-element-id="@spannedPhotoItem.Id" href="#@spannedPhotoItem.Id">Read More <i class="more fa fa-long-arrow-right"></i></a>
         </div>
-        <a class="read-more fancybox" data-element-id="@spannedPhotoItem.Id" href="#@spannedPhotoItem.Id">Read More <i class="more fa fa-long-arrow-right"></i></a>
+      
         <div id="@spannedPhotoItem.Id" style="display:none; width:890px; height: auto;">
             <div>
                 <h2 class="widget-title">

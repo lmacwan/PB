@@ -7,7 +7,7 @@
 {
     children = Model.Content.Descendants("HighlightItem").Where("Visible");
 }
-else if (Model.Content.DocumentTypeAlias == "TreatmentsSubPage")
+else if (Model.Content.DocumentTypeAlias == "TreatmentsData")
 {
     children = Model.Content.Descendants("TreatmentCategory").Where("Visible");
 }

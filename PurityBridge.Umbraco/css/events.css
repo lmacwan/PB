@@ -36,12 +36,13 @@ main > .grid-row {
 }
 
 .event .see-more {
-    padding: 8px 12px;
+    padding: 12px 20px;
     border: solid 2px #00aba5;
     background: #00aba5;
     color: #FFF;
     content: '&nbsp;' '&nbsp;';
     float: right;
+    font-size: 16px;
 }
 
     .event .see-more:hover {
@@ -54,15 +55,17 @@ main > .grid-row {
     }
 
     .event .see-more.fa::after {
-        content: "reserve a seat";
-        font-size: 13px;
+        content: "reserve a place";
+        font-size: 16px;
         /* font: inherit; */
         text-transform: uppercase;
+        margin-left: 5px;
+        font-weight: bold;
     }
 
 .event-month-seperator {
     display: block;
-    font-size: 30px;
+    font-size: 36px;
     line-height: normal;
     color: #00aba5;
     text-align: center;
@@ -85,9 +88,9 @@ main > .grid-row {
         line-height: 1.2;
         /* border-left-color: #00aba5; */
         border-left: solid 3px;
-        font-size: 16px;
+        font-size: 20px;
         color: #00aba5;
-        margin-top: 15px;
+        margin-top: 30px;
     }
 
         .event.page-detail .event-title:nth-child(2) {
@@ -115,7 +118,7 @@ main > .grid-row {
 
         .event.page-detail .event-image img {
             /*width: 100%;
-            max-width: 95%;*/ 
+            max-width: 95%;*/
             height: 130px;
             border: double 6px #aeaeae;
         }
@@ -127,6 +130,8 @@ main > .grid-row {
         padding: 0;
         /* position: relative; */
         max-width: 95%;
+        font-size: 18px;
+        line-height: 1.8;
     }
 
 .event-footer {
@@ -135,13 +140,13 @@ main > .grid-row {
     padding: 10px 0;
     border-top: 1px solid #e3e3e3;
     border-bottom: 1px solid #e3e3e3;
-    font-size: 13px;
+    font-size: 16px;
     color: #000;
     padding-right: 50px;
     /* float: left; */
     clear: none;
     /* border: 0; */
-    line-height: 1.5;
+    line-height: 1.6;
     font-weight: normal;
     overflow: visible;
     width: 100%;
@@ -155,7 +160,7 @@ main > .grid-row {
 
     .event-footer .event-schedule,
     .event-footer .event-venue {
-        line-height: 18px;
+        /* line-height: 18px; */
         margin: 0 !important;
         display: block;
     }
@@ -180,7 +185,7 @@ main > .grid-row {
 .sidebar.active.opened {
     padding-left: 40px;
     padding-right: 40px;
-    z-index:9999;
+    z-index: 9999;
 }
 
 /* 1023

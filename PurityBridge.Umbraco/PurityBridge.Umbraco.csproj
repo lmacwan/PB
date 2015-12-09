@@ -3091,9 +3091,6 @@
     <Content Include="Views\Treatments\Treatment.cshtml" />
     <Content Include="Views\Treatments\Category.cshtml" />
     <Content Include="Views\Treatments_old.cshtml" />
-    <Content Include="Views\Treatment.cshtml">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="Views\MacroPartials\BeforeAndAfterPartial.cshtml" />
     <Content Include="Views\MacroPartials\TestimonialPartial.cshtml" />
     <Content Include="Views\Gallery\Index.cshtml" />
@@ -3250,6 +3247,10 @@
     <Content Include="Views\PhotoItemsPage.cshtml" />
     <Content Include="Views\PopupPhotoItemsPage.cshtml" />
     <Content Include="Views\ConditionsWeTreatPage.cshtml" />
+    <Content Include="Views\MacroPartials\Accordian.cshtml" />
+    <Content Include="Views\Treatment.cshtml">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PurityBridge.Live\PurityBridge.Live.csproj">

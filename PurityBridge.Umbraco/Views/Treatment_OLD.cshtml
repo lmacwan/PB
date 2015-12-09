@@ -6,7 +6,7 @@
     var treatmentContent = Model.Content;
 
     var pageHeading = treatmentContent.GetPropertyValue<string>("pageHeading");
-    var bannerColour = treatmentContent.GetPropertyValue<string>("bannerColour");
+    var bannerColour = treatmentContent.GetPropertyValue<string>("colour");
 
     var testimonialsHtml = treatmentContent.GetPropertyValue<string>("testimonialsContent");
     var featuredImageUrl = treatmentContent.GetCropUrl("thumbnail", "banner");
@@ -25,7 +25,7 @@
     var showVideos = isHideRelatedVideo == false && videos.Count(v => v != null && v.IsVisible()) > 0;
     var showRelatedTreatmentWidget = isHideRelatedTreatmentWidget == false && relatedTreatment != null;
 
-    var pageContentText = PurityBridge.Umbraco.Utility.GetPHtml(treatmentContent.GetPropertyValue<string>("pageContentText"));
+    var pageContentText = treatmentContent.GetPropertyValue<string>("pageContentText");
 
     var faqHeading = treatmentContent.GetPropertyValue<string>("faqHeading");
     if (string.IsNullOrEmpty(faqHeading))
@@ -59,9 +59,9 @@
         <a class="more" href="javascript:void(0)">
             <i class="fa fa-bars"></i>
         </a>
-        @Html.Raw(pageContentText)
+        @Html.Raw(treatmentContent);
 
-        @renderAccordian(faqHeading, faqContent)
+        @renderAccordian(faqHeading, faqContent);
     </div>
 </div>
 <div class="grid-col grid-col-3 sidebar" data-sidebar="1023">
@@ -103,14 +103,15 @@
         Html.RenderPartial("_MakeAnAppointmentPartial");
     }
 </div>
+
 @helper renderAccordian(string faqHeading, string faqContent)
 {
-    if (string.IsNullOrEmpty(faqContent) == false)
+    @if (string.IsNullOrEmpty(faqContent) == false)
     {
         <section class="widget widget-departments">
             <div class="widget-title">@(faqHeading)</div>
             <dl>
-                @Html.Raw(faqContent)
+                @(faqContent)
             </dl>
         </section>
     }

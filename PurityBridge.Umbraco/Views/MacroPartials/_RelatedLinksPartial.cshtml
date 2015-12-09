@@ -1,49 +1,31 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
-@{
-    var relatedLinks = Model.Children(c => c != null && c.DocumentTypeAlias == "Link" && c.IsVisible() && c.HasValue("relatedPage"));
-}
 
-@if (relatedLinks != null && relatedLinks.Any())
-{
-    <section id="relatedLinksSection" class="widget doctors-carousel doctors">
-        <div class="widget-title">Similar Treatments</div>
+<section id="relatedLinksSection" class="widget doctors-carousel doctors">
+    <div class="widget-title">Similar Treatments</div>
 
-        <div id="help-carousel" class="owl-carousel">
-            @foreach (IPublishedContent child in relatedLinks)
-            {
-                <div>
-                    <ul>
-                        @RenderChildren(child)
-                    </ul>
-                </div>
-            }
+    <div id="help-carousel" class="owl-carousel">
+        <div>
+            <ul>
+                @RenderRelatedTreatmentWidget()
+            </ul>
         </div>
-    </section>
-}
-<!--/ help -->
-@helper RenderChildren(IPublishedContent child)
-{
-    if (child.HasValue("relatedPage"))
-    {
-        var element = Umbraco.TypedContent(child.GetPropertyValue<int>("relatedPage"));
+    </div>
+</section>
 
-        var heading = element.GetPropertyValue<string>("heading");
-        var linkedContent = Umbraco.TypedContent(uQuery.GetNodeByUrl("/data" + element.Url).Id);
-        var alt = element.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
-        if (linkedContent != null)
-        {
-            <li class="item">
-                <div class="pic">
-                    <img src="@linkedContent.GetCropUrl("thumbnail", "thumb")" width="142" height="142" alt="@alt">
-                    <div class="links">
-                        <ul>
-                            <li><a href="@element.Url" class="fa fa-mail-forward"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <h3>@heading</h3>
-                <p></p>
-            </li>
-        }
-    }
+@helper RenderRelatedTreatmentWidget()
+{
+    var heading = Model.GetPropertyValue<string>("pageHeading");
+    var alt = Model.GetPropertyValue<string>("thumbnailImageAltValue") ?? string.Empty;
+    <li class="item">
+        <div class="pic">
+            <img src="@(Model.GetCropUrl("thumbnail", "thumb"))" width="142" height="142" alt="@(alt)">
+            <div class="links">
+                <ul>
+                    <li><a href="@(Model.Url)" class="fa fa-mail-forward"></a></li>
+                </ul>
+            </div>
+        </div>
+        <h3>@heading</h3>
+        <p></p>
+    </li>
 }

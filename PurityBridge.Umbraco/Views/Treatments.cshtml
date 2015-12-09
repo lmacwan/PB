@@ -15,12 +15,8 @@
 {
     treatmentsData = treatmentsNode.First();
     IPublishedContent highlights = null;
-    var highlightsNodes = Model.Content.Descendants("TreatmentsSubPage");
+    var highlightsNodes = Model.Content.Descendants("TreatmentCategory");
     if (highlightsNodes.Any())
-    {
-        highlights = highlightsNodes.First();
-    }
-    if (highlights != null)
     {
         @Html.Partial("_HighlightsPartial", highlights);
     }

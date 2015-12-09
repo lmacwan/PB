@@ -6,7 +6,7 @@
     {
         home = Umbraco.Content(contentItems.Id);
     }
-    var isHomePage = CurrentPage.DocumentType == "HomeData";
+    var isHomePage = CurrentPage.DocumentType == "HomePageData";
 }
 
 @if (home != null && home.Children.Any())
@@ -19,10 +19,10 @@
         @* For each child page under the home node *@
 
         @{
-            var subPageChildren = (home as IPublishedContent).Children.Where(
-                d => (d.ContentType.Alias.IndexOf("Data") == d.ContentType.Alias.LastIndexOf("Data"))
-                    && d.GetPropertyValue<bool>("hideInHeader") == false 
-                    && d.IsVisible() == true);
+    var subPageChildren = (home as IPublishedContent).Children.Where(
+        d => (d.ContentType.Alias.IndexOf("Data") == d.ContentType.Alias.LastIndexOf("Data"))
+            && d.GetPropertyValue<bool>("hideInHeader") == false
+            && d.IsVisible() == true);
         }
 
         @foreach (var childPage in subPageChildren)
@@ -35,11 +35,10 @@
                         @childPage.Name
                     </a>
                     @{
-
                 var childPagesValue = childPage.GetPropertyValue<string>("childPages");
                 var pages = (childPagesValue as String).Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse);
-                var pageCollection = Umbraco.TypedContent(pages).Where(x => x != null);
-
+                var pageCollection = Umbraco.TypedContent(pages).Where(x =>
+                        x != null);
                     }
                     @renderChildPages(pageCollection)
                 </li>
@@ -64,15 +63,7 @@
 
         @* Add in level for a CSS hook *@
         <ul class="sublevel level-@(naviLevel)">
-
-            @{
-        var subPageChildren = pageCollection.Where(
-            d => (d.ContentType.Alias.IndexOf("Data") == d.ContentType.Alias.LastIndexOf("Data"))
-                && d.GetPropertyValue<bool>("hideInHeader") == false
-                && d.IsVisible() == true);
-            }
-
-            @foreach (var page in subPageChildren)
+            @foreach (var page in pageCollection)
             {
                 if (page.HasValue("childPages"))
                 {
@@ -84,7 +75,8 @@
                         @{
                     var childPagesValue = page.GetPropertyValue<string>("childPages");
                     var childPages = (childPagesValue as String).Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse);
-                    var pages = (Umbraco.TypedContent(childPages) as IEnumerable<IPublishedContent>).Where(x => x != null);
+                    var pages = (Umbraco.TypedContent(childPages) as IEnumerable<IPublishedContent>).Where(x =>
+                            x != null);
                         }
 
                         @renderChildPages(pages)

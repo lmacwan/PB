@@ -57,6 +57,21 @@
         position: relative !important;
     }
 
+.content {
+    line-height: 2em;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.widget-title {
+    font-size: 1.2em;
+    padding-left: 12px;
+}
+
+.grid-row > div.grid-col {
+    padding-top: 30px;
+}
+
 /* 1024 */
 .nb1024 #relatedTreatmentLinksSection .relatedTeaatmentLink .read-more {
     font-size: 14px;
@@ -100,7 +115,7 @@ div.sidebar.active .doctors-carousel .owl-item {
 }
 
 div.sidebar.active .owl-carousel .item {
-  padding-right: 0px !important; 
+    padding-right: 0px !important;
 }
 
 /* 1023

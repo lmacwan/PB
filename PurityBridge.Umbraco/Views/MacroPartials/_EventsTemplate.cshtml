@@ -49,9 +49,23 @@
     var eventStartDate = eventPage.EventDate;
     var eventStartTime = eventStartDate.ToString("hh:mm tt");
     var eventEndDate = eventPage.EventEndDate;
-    var eventEndTime = eventEndDate.ToString("hh:mm tt");
+    var eventEndTime = eventEndDate != DateTime.MinValue ? eventEndDate.ToString("hh:mm tt") : string.Empty;
 
-    var eventDate = eventStartDate.ToString("MMMM d, yyyy");
+    var eventDate = eventStartDate.ToString("dddd MMMM d, yyyy");
+    var eventSchedule = 
+        string.Format("{0} at {1}{2}", 
+        eventDate, eventStartTime,
+            (eventEndDate == DateTime.MinValue || eventStartDate.Equals(eventEndDate)) 
+            ? (string.Empty) 
+            : string.Format
+            (" - {0}", 
+                (
+                    (eventStartDate.Date.Equals(eventEndDate.Date)) 
+                    ? (string.Empty) 
+                    : eventEndDate.ToString("dddd MMMM d, yyyy") + " at "
+                ) + eventEndDate.ToString("hh:mm tt")
+            )
+        );
 
     string eventImageId = eventPage.EventImage + "";
     var hasImage = true;
@@ -106,9 +120,7 @@
     <div class="event-footer">
 
         <div class="event-schedule">
-            <span class="start-time">@eventStartDate &#64; @eventStartTime</span>
-            -
-            <span class="end-time">@eventEndTime</span>
+            <span class="start-time">@eventSchedule</span>
         </div>
 
         <div class="event-venue">

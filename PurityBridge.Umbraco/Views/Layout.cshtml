@@ -37,12 +37,11 @@
     @RenderSection("styles", required: false)
     <!--/ styles -->
     <!--[if lt IE 9]><script src="js/html5.js")<![endif]-->
+    <script src="/Scripts/js/jquery.min.js"></script>
 </head>
 <body>
     <div class="page">
         @{ Html.RenderPartial("_HeaderPartial"); }
-
-
         @{ Html.RenderPartial("_SearchPartial"); }
         @{ Html.RenderPartial("_PageTitlePartial"); }
         @Html.Partial("_SliderPartial")
@@ -82,7 +81,6 @@
         <link href="/Content/css/color-@(colourTextValue.ToLower()).css" rel="stylesheet" />
     </div>
     <!-- scripts -->
-    <script src="/Scripts/js/jquery.min.js"></script>
     <script src="/Scripts/restive.min.js"></script>
     <script src="/Scripts/js/jquery-ui.min.js"></script>
     <script src="/Scripts/js/jquery.migrate.min.js"></script>

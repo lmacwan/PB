@@ -1,0 +1,13 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    string heading = Model.MacroParameters["heading"].ToString();
+    string html = Model.MacroParameters["content"].ToString();
+}
+
+<dt><i class="fa fa-check"></i>@(heading)</dt>
+<dd>
+    <p>
+        @Html.Raw(html)
+    </p>
+</dd>
+<!-- END: Macro @(heading) -->
