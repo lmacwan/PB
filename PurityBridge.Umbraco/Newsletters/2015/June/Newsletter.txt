@@ -1,0 +1,1893 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="http://www.puritybridge.co.uk/email-newsletters/June2015/images/filelist.xml">
+<link rel=Edit-Time-Data href="http://www.puritybridge.co.uk/email-newsletters/June2015/images/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Richard</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Richard</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>473</o:TotalTime>
+  <o:Created>2015-06-21T21:32:00Z</o:Created>
+  <o:LastSaved>2015-06-21T21:32:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>521</o:Words>
+  <o:Characters>2970</o:Characters>
+  <o:Lines>24</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3485</o:CharactersWithSpaces>
+  <o:Version>15.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="http://www.puritybridge.co.uk/email-newsletters/June2015/images/themedata.thmx">
+<link rel=colorSchemeMapping
+href="http://www.puritybridge.co.uk/email-newsletters/June2015/images/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"Open Sans";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"Header Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 225.65pt right 451.3pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"Footer Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 225.65pt right 451.3pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Footer;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("http://www.puritybridge.co.uk/email-newsletters/June2015/images/header.htm") fs;
+	mso-footnote-continuation-separator:url("http://www.puritybridge.co.uk/email-newsletters/June2015/images/header.htm") fcs;
+	mso-endnote-separator:url("http://www.puritybridge.co.uk/email-newsletters/June2015/images/header.htm") es;
+	mso-endnote-continuation-separator:url("http://www.puritybridge.co.uk/email-newsletters/June2015/images/header.htm") ecs;}
+@page WordSection1
+	{size:21.0cm 55.0cm;
+	margin:1.15pt 72.0pt 0cm 72.0pt;
+	mso-header-margin:0cm;
+	mso-footer-margin:0cm;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0cm;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:39;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-GB link=blue vlink="#954F72" style='tab-interval:36.0pt'>
+
+<div class=WordSection1>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt;mso-border-insideh:none;mso-border-insidev:none' align="center">
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=752 valign=top style='width:451.35pt;background:#9CC2E5;mso-background-themecolor:
+  accent1;mso-background-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.5pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  color:blue;mso-fareast-language:EN-GB;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="Picture_x0020_36" o:spid="_x0000_i1036" type="#_x0000_t75"
+   alt="logo" style='width:45pt;height:45pt;visibility:visible;
+   mso-wrap-style:square'>
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image001.png" o:title="logo"/>
+  </v:shape><![endif]--><![if !vml]><img width=75 height=75
+  src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image002.png" alt=logo v:shapes="Picture_x0020_36"><![endif]></span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=752 valign=top style='width:451.35pt;background:#9CC2E5;mso-background-themecolor:
+  accent1;mso-background-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:31.5pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+  EN-GB'>PURITY BRIDGE<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.5pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  color:blue;mso-fareast-language:EN-GB;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.5pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  color:blue;mso-fareast-language:EN-GB;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=752 valign=top style='width:451.35pt;background:#9CC2E5;mso-background-themecolor:
+  accent1;mso-background-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:13.5pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:white;mso-fareast-language:EN-GB'>THE
+  PRIVATE AESTHETIC CLINIC IN TUNBRIDGE WELLS</span><span style='font-size:
+  31.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+  EN-GB'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=752 valign=top style='width:451.35pt;background:#9CC2E5;mso-background-themecolor:
+  accent1;mso-background-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:13.5pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:white;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:13.5pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:white;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=752 valign=top style='width:451.35pt;background:#9CC2E5;mso-background-themecolor:
+  accent1;mso-background-themetint:153;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:18.0pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+  EN-GB;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_31"
+   o:spid="_x0000_i1035" type="#_x0000_t75" alt="logo" style='width:24.6pt;
+   height:24.6pt;visibility:visible;mso-wrap-style:square'>
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image003.png" o:title="logo"/>
+  </v:shape><![endif]--><![if !vml]><img width=41 height=41
+  src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image004.png" alt=logo v:shapes="Picture_x0020_31"><![endif]></span><span
+  style='font-size:13.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:white;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:13.5pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:white;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:18.0pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+  mso-fareast-language:EN-GB'>The quick solution to early facial ageing  Thread
+  Lifts<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><!--[if gte vml 1]><v:shape id="Picture_x0020_1"
+   o:spid="_x0000_s1035" type="#_x0000_t75" style='position:absolute;left:0;
+   text-align:left;margin-left:0;margin-top:64.1pt;width:253.2pt;height:92.65pt;
+   z-index:-251655168;visibility:visible;mso-wrap-style:square;
+   mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:0;
+   mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+   mso-wrap-distance-bottom:2.85pt;mso-position-horizontal:absolute;
+   mso-position-horizontal-relative:margin;mso-position-vertical:absolute;
+   mso-position-vertical-relative:margin;mso-width-percent:0;
+   mso-height-percent:0;mso-width-relative:margin;mso-height-relative:margin'>
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image005.jpg" o:title="Thread lifting"/>
+   <w:wrap type="square" anchorx="margin" anchory="margin"/>
+  </v:shape><![endif]--><![if !vml]><img width=422 height=154
+  src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image006.jpg" align=left hspace=6
+  style='margin-left:-6px;margin-right:6px;margin-top:0px;margin-bottom:4px'
+  v:shapes="Picture_x0020_1"><![endif]><span style='font-size:10.5pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#4F4D4B;mso-fareast-language:
+  EN-GB'>Thread lifts are proving to be continually popular at Purity Bridge,
+  so we thought wed share some more information about them. Thread lifts are
+  an excellent clinic-based local anaesthetic procedure that can produce a
+  subtle and refreshed appearance for those who can afford little down time and
+  are not at the stage of seeking surgical intervention. It is particularly
+  suited to those with early facial ageing (typical in the age range of 35-50).<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#4F4D4B;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><a
+  href="http://puritybridge.co.uk/blog/posts/2015/june/the-quick-solution-to-early-facial-ageing-thread-lifts/"><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-fareast-language:
+  EN-GB'>Read more</span></a><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB;mso-no-proof:yes'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><a
+  href="https://www.youtube.com/watch?v=XsnLq4_ADOs"><span style='color:windowtext;
+  mso-fareast-language:EN-GB;mso-no-proof:yes;text-decoration:none;text-underline:
+  none'><!--[if gte vml 1]><v:shape id="_x0000_i1025" type="#_x0000_t75"
+   style='width:165pt;height:99.6pt'>
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image007.png" o:title="video-1"/>
+  </v:shape><![endif]--><![if !vml]><img border=0 width=275 height=166
+  src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image008.jpg" v:shapes="_x0000_i1025"><![endif]></span></a><span
+  style='mso-fareast-language:EN-GB;mso-no-proof:yes'><span
+  style='mso-spacerun:yes'>       </span></span><a
+  href="https://www.youtube.com/watch?v=I7BCF0MeAOs&amp;feature=youtu.be"><span
+  style='color:windowtext;mso-fareast-language:EN-GB;mso-no-proof:yes;
+  text-decoration:none;text-underline:none'><!--[if gte vml 1]><v:shape id="Picture_x0020_6"
+   o:spid="_x0000_i1034" type="#_x0000_t75"
+   href="https://www.youtube.com/watch?v=I7BCF0MeAOs&amp;feature=youtu.be"
+   style='width:164.4pt;height:99pt;visibility:visible;mso-wrap-style:square'
+   o:button="t">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image009.png" o:title="video-2"/>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><img
+  border=0 width=274 height=165 src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image010.jpg"
+  v:shapes="Picture_x0020_6"></span><![endif]></span></a></p>
+  <div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.5pt;
+  padding:0cm 0cm 1.0pt 0cm'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal;border:none;mso-border-bottom-alt:solid windowtext 1.5pt;
+  padding:0cm;mso-padding-alt:0cm 0cm 1.0pt 0cm'><span style='font-size:18.0pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+  EN-GB'><o:p>&nbsp;</o:p></span></p>
+  </div>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;height:106.35pt'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:106.35pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:18.0pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+  mso-fareast-language:EN-GB'>Facial Thread Vein Treatment<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;tab-stops:99.0pt center 220.25pt'><!--[if gte vml 1]><v:shape id="_x0000_s1033"
+   type="#_x0000_t75" style='position:absolute;margin-left:449.6pt;
+   margin-top:0;width:190.8pt;height:119.4pt;z-index:251663360;
+   mso-position-horizontal:right;mso-position-horizontal-relative:text;
+   mso-position-vertical:top;mso-position-vertical-relative:line;
+   mso-width-relative:page;mso-height-relative:page' wrapcoords="-85 0 -85 21464 21600 21464 21600 0 -85 0"
+   o:allowoverlap="f">
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image011.jpg" o:title="threadlift-before-after"/>
+   <w:wrap type="tight"/>
+  </v:shape><![endif]--><![if !vml]><img width=318 height=199
+  src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image011.jpg" align=right hspace=12 v:shapes="_x0000_s1033"><![endif]><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4F4D4B;
+  mso-fareast-language:EN-GB'>Thread veins commonly appear on the face, whether
+  it is on the nose, the cheeks or elsewhere. Many people find them unsightly
+  and annoying, so fortunately there is a simple and effective way of treating
+  them. Thermavein treatment is an ingenious technique that removes thread
+  veins (spider veins) for good and is particularly effective on the face.<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#4F4D4B;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><a
+  href="http://puritybridge.co.uk/blog/posts/2015/june/facial-thread-vein-treatment/"><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-fareast-language:
+  EN-GB'>Read more</span></a><span class=MsoHyperlink><span style='font-size:
+  10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";mso-fareast-language:EN-GB'></span></span><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4F4D4B;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.5pt;
+  padding:0cm 0cm 1.0pt 0cm'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;border:none;mso-border-bottom-alt:solid windowtext 1.5pt;
+  padding:0cm;mso-padding-alt:0cm 0cm 1.0pt 0cm'><span style='font-size:18.0pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+  EN-GB'><o:p>&nbsp;</o:p></span></p>
+  </div>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:18.0pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+  mso-fareast-language:EN-GB'>Introducing Justine<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#4F4D4B;mso-fareast-language:EN-GB;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><!--[if gte vml 1]><v:shape id="_x0000_s1030"
+   type="#_x0000_t75" style='position:absolute;left:0;text-align:left;
+   margin-left:0;margin-top:0;width:55.7pt;height:83.55pt;z-index:251659264;
+   mso-position-horizontal:left;mso-position-horizontal-relative:text;
+   mso-position-vertical:top;mso-position-vertical-relative:line;
+   mso-width-relative:page;mso-height-relative:page' o:allowoverlap="f">
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image012.jpg" o:title="Justine"/>
+   <w:wrap type="square"/>
+  </v:shape><![endif]--><![if !vml]><img width=93 height=139
+  src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image013.jpg" align=left hspace=12 v:shapes="_x0000_s1030"><![endif]><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4F4D4B;
+  mso-fareast-language:EN-GB;mso-no-proof:yes'>In this new feature, we want you
+  to meet the team behind Purity Bridge. Having been such a star in agreeing to
+  be filmed undergoing a thread lift, and also openly discussing the process
+  with her video diary, we thought Justine should be the first to appear.</span><span
+  style='font-size:18.0pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#2E74B5;mso-themecolor:accent1;mso-themeshade:191;mso-fareast-language:
+  EN-GB;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:7.5pt;mso-bidi-font-size:
+  10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#2E74B5;mso-themecolor:accent1;
+  mso-themeshade:191;mso-fareast-language:EN-GB;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><a
+  href="http://puritybridge.co.uk/blog/posts/2015/june/introducing-justine/"><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-fareast-language:
+  EN-GB;mso-no-proof:yes'>Read more</span></a><span style='font-size:10.5pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#4F4D4B;mso-fareast-language:
+  EN-GB;mso-no-proof:yes'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.5pt;
+  padding:0cm 0cm 1.0pt 0cm'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;border:none;mso-border-bottom-alt:solid windowtext 1.5pt;
+  padding:0cm;mso-padding-alt:0cm 0cm 1.0pt 0cm'><span style='font-size:18.0pt;
+  font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+  EN-GB'><o:p>&nbsp;</o:p></span></p>
+  </div>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:18.0pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+  mso-fareast-language:EN-GB'>So what exactly happens when having a mole
+  removed?<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><!--[if gte vml 1]><v:shape id="Picture_x0020_8"
+   o:spid="_x0000_s1034" type="#_x0000_t75" style='position:absolute;left:0;
+   text-align:left;margin-left:0;margin-top:11.7pt;width:71.4pt;height:80.2pt;
+   z-index:251660288;visibility:visible;mso-wrap-style:square;
+   mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;
+   mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+   mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+   mso-position-horizontal-relative:text;mso-position-vertical:absolute;
+   mso-position-vertical-relative:text;mso-width-percent:0;
+   mso-height-percent:0;mso-width-relative:page;mso-height-relative:page'>
+   <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image014.jpg" o:title="Excision of a lesion or mole copy"/>
+   <w:wrap type="square"/>
+  </v:shape><![endif]--><![if !vml]><img width=119 height=134
+  src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image015.jpg" align=left hspace=12 v:shapes="Picture_x0020_8"><![endif]><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4F4D4B;
+  mso-fareast-language:EN-GB'>Having any operation can be a daunting prospect,
+  even a minor procedure such as having a mole or cyst removed. However,
+  being forewarned is forearmed and knowing what to expect in the run up to
+  having a procedure can significantly relieve the stress and fear of the
+  unknown. So what is involved when a mole is removed?</span><span
+  style='font-size:17.5pt;mso-bidi-font-size:10.5pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#4F4D4B;mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><a
+  href="http://puritybridge.co.uk/blog/posts/2015/june/so-what-exactly-happens-when-having-a-mole-removed/"><span
+  style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-fareast-language:
+  EN-GB'>Read more</span></a><span class=MsoHyperlink><span style='font-size:
+  10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+  mso-bidi-font-family:"Times New Roman";mso-fareast-language:EN-GB'></span></span><span
+  style='font-size:18.0pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-family:"Tahoma",sans-serif;
+  mso-fareast-language:EN-GB;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#4F4D4B;mso-fareast-language:EN-GB;mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width=752 valign=top style='width:451.35pt;background:#BDD6EE;mso-background-themecolor:
+  accent1;mso-background-themetint:102;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:4.0pt;
+  mso-bidi-font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4F4D4B;
+  mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:16.5pt'><span style='font-size:12.0pt;
+  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+  mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 align=left
+   width=338 style='width:202.5pt;border-collapse:collapse;mso-yfti-tbllook:
+   1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:
+   paragraph;mso-table-anchor-horizontal:column;mso-table-left:left;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:16.5pt'><span style='font-size:15.0pt;font-family:"Open Sans",serif;
+    mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+    color:#003366;mso-fareast-language:EN-GB'>The Clinic</span><span
+    style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:15.0pt'><span style='font-size:15.0pt;font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'>&nbsp;</span><span
+    style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:17.25pt'><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+    mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+    color:#4F4D4B;mso-fareast-language:EN-GB'>Purity Bridge<br>
+    Tunbridge Wells Plastic Surgery Ltd<br>
+    6 Mount Ephraim<br>
+    Tunbridge Wells,&nbsp;<br>
+    Kent TN4 8AS</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 align=right
+   width=338 style='width:202.5pt;border-collapse:collapse;mso-yfti-tbllook:
+   1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:
+   paragraph;mso-table-anchor-horizontal:column;mso-table-left:right;
+   mso-table-top:middle;mso-padding-alt:0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:16.5pt'><span style='font-size:15.0pt;font-family:"Open Sans",serif;
+    mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+    color:#003366;mso-fareast-language:EN-GB'>Contact us</span><span
+    style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td style='padding:0cm 0cm 0cm 0cm'></td>
+   </tr>
+   <tr style='mso-yfti-irow:2'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-table-lspace:
+     1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:paragraph;
+     mso-table-anchor-horizontal:column;mso-table-left:left;mso-padding-alt:
+     0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+      line-height:18.0pt'><a name="OLE_LINK2"></a><a name="OLE_LINK1"><span
+      style='mso-bookmark:OLE_LINK2'></span></a><a
+      href="http://www.puritybridge.co.uk"><span style='mso-bookmark:OLE_LINK1'><span
+      style='mso-bookmark:OLE_LINK2'><span style='font-size:10.5pt;font-family:
+      "Open Sans",serif;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+      "Times New Roman";mso-fareast-language:EN-GB'>www.puritybridge.co.uk</span></span></span></a><span
+      style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+      "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-table-lspace:
+     1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:paragraph;
+     mso-table-anchor-horizontal:column;mso-table-left:left;mso-padding-alt:
+     0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+    </table>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><o:p>&nbsp;</o:p></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><a href="mailto:info@puritybridge.co.uk"><span
+    style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+    "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-fareast-language:
+    EN-GB'>info@puritybridge.co.uk</span></a><span class=MsoHyperlink><span
+    style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+    "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-fareast-language:
+    EN-GB'><o:p></o:p></span></span></p>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><u><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+    mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+    color:#993366;mso-fareast-language:EN-GB'><o:p><span style='text-decoration:
+     none'>&nbsp;</span></o:p></span></u></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:4'>
+    <td style='padding:0cm 0cm 0cm 0cm'></td>
+   </tr>
+   <tr style='mso-yfti-irow:5'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left width=45 style='width:26.85pt;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:
+     paragraph;mso-table-anchor-horizontal:column;mso-table-left:left;
+     mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+      height:18.55pt'>
+      <td style='padding:0cm 0cm 0cm 0cm;height:18.55pt'>
+      <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+      line-height:normal'><a href="http://www.facebook.com/puritybridgetw"><span
+      style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+      "Times New Roman";color:windowtext;mso-fareast-language:EN-GB;text-decoration:
+      none;text-underline:none'><!--[if gte vml 1]><v:shape id="_x0000_i1026"
+       type="#_x0000_t75" style='width:30pt;height:30pt'>
+       <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image016.png" o:title="facebook"/>
+      </v:shape><![endif]--><![if !vml]><img border=0 width=50 height=50
+      src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image017.jpg" v:shapes="_x0000_i1026"><![endif]></span></a><span
+      style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+      "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><span
+    style='mso-spacerun:yes'>      </span></span><a
+    href="http://www.twitter.com/puritybridgetw"><span style='font-size:12.0pt;
+    font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+    color:windowtext;mso-fareast-language:EN-GB;text-decoration:none;
+    text-underline:none'><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+     style='width:33pt;height:33pt'>
+     <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image018.png" o:title="twitter"/>
+    </v:shape><![endif]--><![if !vml]><img border=0 width=55 height=55
+    src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image019.png" v:shapes="_x0000_i1027"><![endif]></span></a><span
+    style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+    "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:6'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-table-lspace:
+     1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:paragraph;
+     mso-table-anchor-horizontal:column;mso-table-left:left;mso-padding-alt:
+     0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+      line-height:18.0pt'><b><span style='font-size:10.5pt;font-family:"Open Sans",serif;
+      mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+      color:#4F4D4B;mso-fareast-language:EN-GB'>Tel:&nbsp;</span></b><span
+      style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+      "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#4F4D4B;
+      mso-fareast-language:EN-GB'>01892 536960</span><span style='font-size:
+      12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    line-height:normal'><span style='font-size:10.5pt;font-family:"Times New Roman",serif;
+    mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB;
+    mso-no-proof:yes'><o:p>&nbsp;</o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:16.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td width=752 valign=top style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;background:#99CCCC;mso-yfti-tbllook:
+   1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=734
+     style='width:440.55pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;
+     mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+      .0001pt;text-align:center;line-height:18.0pt'><b style='mso-bidi-font-weight:
+      normal'><span style='font-size:18.0pt;font-family:"Open Sans",serif;
+      mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+      color:white;mso-fareast-language:EN-GB'>THE PURITY BRIDGE&nbsp;<span
+      style='mso-bidi-font-weight:bold'>PROMISE<o:p></o:p></span></span></b></p>
+      <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+      .0001pt;text-align:center;line-height:18.0pt'><span style='font-size:
+      10.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif;
+      mso-fareast-font-family:"Times New Roman";color:#1F4E79;mso-themecolor:
+      accent1;mso-themeshade:128;mso-style-textfill-fill-color:#1F4E79;
+      mso-style-textfill-fill-themecolor:accent1;mso-style-textfill-fill-alpha:
+      100.0%;mso-style-textfill-fill-colortransforms:lumm=50000;mso-fareast-language:
+      EN-GB'><a href="http://puritybridge.co.uk/clinic/right-choice/"><span
+      style='color:#1F4E79;mso-themecolor:accent1;mso-themeshade:128;
+      mso-style-textfill-fill-color:#1F4E79;mso-style-textfill-fill-themecolor:
+      accent1;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+      lumm=50000'>Read more about why we are the right choice, our promise and
+      the Cosmetic Surgery Programme </span></a></span><span style='font-size:
+      12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1'>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+     <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       align=left width=338 style='width:202.5pt;border-collapse:collapse;
+       mso-yfti-tbllook:1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;
+       mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;
+       mso-table-left:left;mso-padding-alt:0cm 0cm 0cm 0cm'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+        height:85.1pt'>
+        <td style='padding:0cm 0cm 0cm 0cm;height:85.1pt'>
+        <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+        .0001pt;text-align:center;line-height:normal'><span style='font-size:
+        12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+        "Times New Roman";display:none;mso-hide:all;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+        <div align=center>
+        <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+         width=759 style='width:455.3pt;mso-cellspacing:0cm;mso-yfti-tbllook:
+         1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+         <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:
+          yes'>
+          <td width=117 style='width:70.2pt;padding:0cm 0cm 0cm 0cm'>
+          <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+          line-height:30.0pt'><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+          mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><span
+          style='mso-spacerun:yes'>     </span></span><span style='font-size:
+          10.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+          "Times New Roman";mso-fareast-language:EN-GB;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+           id="Picture_x0020_5" o:spid="_x0000_i1033" type="#_x0000_t75" alt="https://gallery.mailchimp.com/1ad4096841d17b41de88d2800/images/29fc312f-2b1e-4f6b-86c7-4dc0b6845074.png"
+           style='width:50.4pt;height:32.4pt;visibility:visible;
+           mso-wrap-style:square'>
+           <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image020.png" o:title="29fc312f-2b1e-4f6b-86c7-4dc0b6845074"/>
+          </v:shape><![endif]--><![if !vml]><img border=0 width=84 height=54
+          src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image021.jpg"
+          alt="https://gallery.mailchimp.com/1ad4096841d17b41de88d2800/images/29fc312f-2b1e-4f6b-86c7-4dc0b6845074.png"
+          v:shapes="Picture_x0020_5"><![endif]></span><span style='font-size:
+          12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+          "Times New Roman";mso-fareast-language:EN-GB'><span
+          style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+          </td>
+          <td width=204 style='width:122.55pt;padding:0cm 0cm 0cm 0cm'>
+          <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+          line-height:30.0pt'><span style='font-size:10.5pt;font-family:"Times New Roman",serif;
+          mso-fareast-font-family:"Times New Roman";color:blue;mso-fareast-language:
+          EN-GB;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
+           o:spid="_x0000_i1032" type="#_x0000_t75" alt="https://gallery.mailchimp.com/1ad4096841d17b41de88d2800/images/631a746b-8eb3-4b87-a965-c77daba1ca33.png"
+           style='width:118.8pt;height:26.4pt;visibility:visible;
+           mso-wrap-style:square'>
+           <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image022.png" o:title="631a746b-8eb3-4b87-a965-c77daba1ca33"/>
+          </v:shape><![endif]--><![if !vml]><img border=0 width=198 height=44
+          src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image023.jpg"
+          alt="https://gallery.mailchimp.com/1ad4096841d17b41de88d2800/images/631a746b-8eb3-4b87-a965-c77daba1ca33.png"
+          v:shapes="Picture_x0020_4"><![endif]></span><span style='font-size:
+          12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+          "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+          </td>
+          <td width=130 style='width:78.0pt;padding:0cm 0cm 0cm 0cm'>
+          <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+          .0001pt;text-align:center;line-height:30.0pt'><span style='font-size:
+          10.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+          "Times New Roman";color:blue;mso-fareast-language:EN-GB;mso-no-proof:
+          yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_17" o:spid="_x0000_i1031"
+           type="#_x0000_t75" alt="foo" style='width:42pt;height:30.6pt;
+           visibility:visible;mso-wrap-style:square'>
+           <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image024.png" o:title="foo"/>
+          </v:shape><![endif]--><![if !vml]><img border=0 width=70 height=51
+          src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image025.jpg" alt=foo v:shapes="Picture_x0020_17"><![endif]></span><span
+          style='font-size:12.0pt;font-family:"Times New Roman",serif;
+          mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+          </td>
+          <td width=131 style='width:78.65pt;padding:0cm 0cm 0cm 0cm'>
+          <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+          line-height:30.0pt'><span style='font-size:10.5pt;font-family:"Times New Roman",serif;
+          mso-fareast-font-family:"Times New Roman";color:blue;mso-fareast-language:
+          EN-GB;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_18"
+           o:spid="_x0000_i1030" type="#_x0000_t75" alt="boo" style='width:30pt;
+           height:25.8pt;visibility:visible;mso-wrap-style:square'>
+           <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image026.png" o:title="boo"/>
+          </v:shape><![endif]--><![if !vml]><img border=0 width=50 height=43
+          src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image027.jpg" alt=boo v:shapes="Picture_x0020_18"><![endif]></span><span
+          style='font-size:12.0pt;font-family:"Times New Roman",serif;
+          mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+          </td>
+          <td width=177 style='width:105.9pt;padding:0cm 0cm 0cm 0cm'>
+          <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+          mso-line-height-alt:30.0pt'><span style='font-size:41.5pt;font-family:
+          "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+          mso-fareast-language:EN-GB;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+           id="Picture_x0020_19" o:spid="_x0000_i1029" type="#_x0000_t75"
+           alt="https://gallery.mailchimp.com/1ad4096841d17b41de88d2800/images/2a7bb091-5a1d-4d08-a5ab-3494669a0a51.png"
+           style='width:85.8pt;height:27pt;visibility:visible;mso-wrap-style:square'>
+           <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image028.png" o:title="2a7bb091-5a1d-4d08-a5ab-3494669a0a51"/>
+          </v:shape><![endif]--><![if !vml]><img border=0 width=143 height=45
+          src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image029.png"
+          alt="https://gallery.mailchimp.com/1ad4096841d17b41de88d2800/images/2a7bb091-5a1d-4d08-a5ab-3494669a0a51.png"
+          v:shapes="Picture_x0020_19"><![endif]></span><span style='font-size:
+          12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+          "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+          </td>
+         </tr>
+        </table>
+        </div>
+        <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+         align=left width=6 style='width:3.75pt;border-collapse:collapse;
+         mso-yfti-tbllook:1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;
+         mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;
+         mso-table-left:left;mso-padding-alt:0cm 0cm 0cm 0cm'>
+         <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:
+          yes'>
+          <td width=6 style='width:3.75pt;padding:0cm 0cm 0cm 0cm'></td>
+         </tr>
+        </table>
+        <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+         align=right width=150 style='width:90.0pt;border-collapse:collapse;
+         mso-yfti-tbllook:1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;
+         mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;
+         mso-table-left:right;mso-table-top:middle;mso-padding-alt:0cm 0cm 0cm 0cm'>
+         <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:
+          yes'>
+          <td style='padding:0cm 0cm 0cm 0cm'></td>
+         </tr>
+        </table>
+        </td>
+       </tr>
+      </table>
+      <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+      .0001pt;text-align:center;line-height:normal'><span style='font-size:
+      12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      display:none;mso-hide:all;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left width=738 style='width:442.5pt;mso-cellspacing:0cm;mso-table-overlap:
+     never;mso-yfti-tbllook:1184;mso-table-lspace:9.0pt;margin-left:7.2pt;
+     mso-table-rspace:9.0pt;margin-right:7.2pt;mso-table-anchor-vertical:paragraph;
+     mso-table-anchor-horizontal:margin;mso-table-left:left;mso-table-top:-392.6pt;
+     mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+      height:149.1pt'>
+      <td style='padding:0cm 0cm 0cm 0cm;height:149.1pt'>
+      <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+      .0001pt;text-align:center;line-height:16.5pt'><span style='font-size:
+      11.5pt;mso-bidi-font-size:10.5pt;font-family:"Open Sans",serif;
+      mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+      color:white;mso-themecolor:background1;mso-fareast-language:EN-GB;
+      mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
+       o:spid="_x0000_i1028" type="#_x0000_t75" alt="sarona" style='width:79.8pt;
+       height:111pt;visibility:visible;mso-wrap-style:square'>
+       <v:imagedata src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image030.png" o:title="sarona"
+        cropbottom="18898f" cropleft="7739f" cropright="10882f"/>
+      </v:shape><![endif]--><![if !vml]><img border=0 width=133 height=185
+      src="http://www.puritybridge.co.uk/email-newsletters/June2015/images/image031.png" alt=sarona v:shapes="Picture_x0020_2"><![endif]></span><span
+      style='font-size:10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:
+      "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+      mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+      .0001pt;text-align:center;line-height:16.5pt'><span style='font-size:
+      10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+      mso-bidi-font-family:"Times New Roman";color:white;mso-themecolor:background1;
+      mso-fareast-language:EN-GB'>Clinic Manager<o:p></o:p></span></p>
+      <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+      .0001pt;text-align:center;line-height:16.5pt'><span style='font-size:
+      10.5pt;font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+      mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+      EN-GB'><o:p>&nbsp;</o:p></span></p>
+      <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:
+      .0001pt;text-align:center;line-height:115%'><span style='font-size:10.5pt;
+      line-height:115%;font-family:"Open Sans",serif;mso-fareast-font-family:
+      "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#003366;
+      mso-fareast-language:EN-GB'>For more information about the clinic<br>
+      or any of the upcoming events<br>
+      please do get in touch.<br>
+      <br>
+      Email me at&nbsp;</span><a href="mailto:sarona@puritybridge.co.uk"><span
+      style='font-size:10.5pt;line-height:115%;font-family:"Open Sans",serif;
+      mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'>sarona@puritybridge.co.uk</span></a><span
+      style='font-size:10.5pt;line-height:115%;font-family:"Open Sans",serif;
+      mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+      color:#003366;mso-fareast-language:EN-GB'>&nbsp;or call on 01892 536960<br>
+      <br>
+      We look forward to seeing you<br>
+      at Purity Bridge soon.<br>
+      </span><span style='font-size:4.0pt;mso-bidi-font-size:10.5pt;line-height:
+      115%;font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+      mso-bidi-font-family:"Times New Roman";color:#003366;mso-fareast-language:
+      EN-GB'><br>
+      </span><span style='font-size:10.5pt;line-height:115%;font-family:"Open Sans",serif;
+      mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+      color:#003366;mso-fareast-language:EN-GB'>Kind regards,&nbsp;<br>
+      Sarona<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:16.5pt'><span style='font-size:15.0pt;font-family:"Open Sans",serif;
+  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+  color:#003366;mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td width=752 style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=738
+   style='width:442.5pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left style='border-collapse:collapse;mso-yfti-tbllook:1184;
+     mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:
+     paragraph;mso-table-anchor-horizontal:column;mso-table-left:left;
+     mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <div align=center>
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:
+       0cm 0cm 0cm 0cm'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+        <td style='padding:0cm 0cm 0cm 0cm'>
+        <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+        text-align:justify;line-height:15.0pt'><span style='font-size:7.5pt;
+        font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+        mso-bidi-font-family:"Times New Roman";color:#4F4D4B;mso-fareast-language:
+        EN-GB'>Purity Bridge is based within Tunbridge Wells Plastic Surgery
+        Limited, registered in England &amp; Wales with number 8226611.
+        Tunbridge Wells Plastic Surgery Ltd is registered and regulated by The
+        Care Quality Commission.</span><span style='font-size:12.0pt;
+        font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+        mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+        </td>
+        <td style='padding:0cm 0cm 0cm 0cm'>
+        <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+        text-align:justify;line-height:15.0pt'><span style='font-size:10.0pt;
+        font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+        mso-bidi-font-family:"Times New Roman";color:#4F4D4B;mso-fareast-language:
+        EN-GB'>&nbsp;</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+        mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+        </td>
+       </tr>
+      </table>
+      </div>
+      </td>
+     </tr>
+    </table>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+    font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+    display:none;mso-hide:all;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left width=6 style='width:3.75pt;border-collapse:collapse;
+     mso-yfti-tbllook:1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;
+     mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;
+     mso-table-left:left;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td width=6 style='width:3.75pt;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+      text-align:justify;line-height:15.0pt'><span style='font-size:15.0pt;
+      font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'>&nbsp;</span><span style='font-size:12.0pt;
+      font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=right style='border-collapse:collapse;mso-yfti-tbllook:1184;
+     mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:
+     paragraph;mso-table-anchor-horizontal:column;mso-table-left:right;
+     mso-table-top:middle;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+      text-align:justify;line-height:15.0pt'><span style='font-size:10.0pt;
+      font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+      mso-bidi-font-family:"Times New Roman";color:#97A6AE;mso-fareast-language:
+      EN-GB'>&nbsp;</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+      mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16;mso-yfti-lastrow:yes'>
+  <td width=752 style='width:451.35pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=738
+   style='width:442.5pt;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left style='border-collapse:collapse;mso-yfti-tbllook:1184;
+     mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:
+     paragraph;mso-table-anchor-horizontal:column;mso-table-left:left;
+     mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <div align=center>
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:
+       0cm 0cm 0cm 0cm'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+        <td style='padding:0cm 0cm 0cm 0cm'>
+        <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+        text-align:justify;line-height:15.0pt'><span style='font-size:10.0pt;
+        font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+        mso-bidi-font-family:"Times New Roman";color:#4F4D4B;mso-fareast-language:
+        EN-GB'>Purity Bridge</span><span style='font-size:12.0pt;font-family:
+        "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+        mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+        </td>
+        <td style='padding:0cm 0cm 0cm 0cm'>
+        <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+        text-align:justify;line-height:15.0pt'><span style='font-size:10.0pt;
+        font-family:"Open Sans",serif;mso-fareast-font-family:"Times New Roman";
+        mso-bidi-font-family:"Times New Roman";color:#4F4D4B;mso-fareast-language:
+        EN-GB'>© copyright 2015 All right reserved</span><span
+        style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+        "Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+        </td>
+       </tr>
+      </table>
+      </div>
+      </td>
+     </tr>
+    </table>
+    <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+    text-align:justify;line-height:normal'><span style='font-size:12.0pt;
+    font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+    display:none;mso-hide:all;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=left width=6 style='width:3.75pt;border-collapse:collapse;
+     mso-yfti-tbllook:1184;mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;
+     mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;
+     mso-table-left:left;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td width=6 style='width:3.75pt;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+      text-align:justify;line-height:15.0pt'><span style='font-size:15.0pt;
+      font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'>&nbsp;</span><span style='font-size:12.0pt;
+      font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     align=right style='border-collapse:collapse;mso-yfti-tbllook:1184;
+     mso-table-lspace:1.8pt;mso-table-rspace:1.8pt;mso-table-anchor-vertical:
+     paragraph;mso-table-anchor-horizontal:column;mso-table-left:right;
+     mso-table-top:middle;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;
+      text-align:justify;line-height:15.0pt'><span style='font-size:12.0pt;
+      font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

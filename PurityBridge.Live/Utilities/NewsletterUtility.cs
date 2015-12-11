@@ -99,7 +99,7 @@ namespace PurityBridge.Live.Utilities
             return GetNewsLetterModel(rootPath, GetMonth(month), year);
         }
 
-        public NewsletterModel GetNewsLetterModel(string rootPath, string    month, int year)
+        public NewsletterModel GetNewsLetterModel(string rootPath, string month, int year)
         {
             return GetNewsLetterModel(rootPath, GetMonth(month), year);
         }

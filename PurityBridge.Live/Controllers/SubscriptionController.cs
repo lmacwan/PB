@@ -79,7 +79,7 @@ namespace PurityBridge.Live
             var cc = new List<string>();
             cc.Add("lmacwan@hotmail.com");
             cc.Add("richard6495@yahoo.com");
-            if (MailUtility.SendSingleMail("info@puritybridge.co.uk", cc, "bookAppointment@pacifico.co.uk", "Make an appointment ", body, true))
+            if (MailUtility.SendSingleMail("info@puritybridge.co.uk", cc, "bookAppointment@pacifico.co.uk", "Reserve a place for Event", body, true))
             {
                 success = true;
                 msg = "Your request has been submitted successfully.";

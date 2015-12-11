@@ -19,7 +19,7 @@ namespace PurityBridge.Live
         MAY = 5,
         [Month(6, "June", shortName = "Jun")]
         JUNE = 6,
-        [Month(7, "Jul", shortName = "Jul")]
+        [Month(7, "July", shortName = "Jul")]
         JULY = 7,
         [Month(8, "August", shortName = "Aug")]
         AUGUST = 8,

@@ -1345,3 +1345,21 @@ a {
 .main-nav li.active > a {
     background-color: #ed94ba;
 }
+
+/* Newsletters */
+.newsletter-buttons .btn-prev,
+    .newsletter-buttons .btn-next {
+        background-color: #ed94ba;
+    }
+
+#newsletters-content .item img {
+    border: 2px solid #ed94ba;
+}
+
+#newsletters-content .item h2 {
+    border-bottom-color: #ed94ba;
+}
+
+#newsletters-content .item a:hover {
+    color: #ed94ba;
+}

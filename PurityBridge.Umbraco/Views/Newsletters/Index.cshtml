@@ -3,105 +3,106 @@
     ViewBag.Title = "Newsletters";
     Layout = "~/Views/Shared/_Layout.cshtml";
     var newsLetterSummary = ViewBag.Data == null ? new List<NewsletterSummary>() : (List<NewsletterSummary>)ViewBag.Data;
-    var newsLettersPerRow = 3;
+    var newsLettersPerRow = 4;
 }
 <link href="~/Content/css/newsletter.css" rel="stylesheet" />
 @if (newsLetterSummary.Any())
 {
     IEnumerable<NewsletterSummary> newsLettersForCurrentRow = null;
     var newsLetterSummaryByYear = newsLetterSummary.ToList().OrderByDescending(s => s.MonthIndex).GroupBy(s => s.Year).Select(grp => new { Year = grp.Key, NewsLetterList = grp.ToList() }).OrderByDescending(grp => grp.Year);
-    var currentYear = newsLetterSummary.First().Year;
+    var currentYear = DateTime.Now.Year.ToString();
     @Html.Hidden("defaultYear", currentYear)
-    
-    <div class="grid-row details">
-        <section class="services newsletters services-wide wpb_content_element" id="services">
-            <div class="widget-title"></div>
-            <div class="owl-carousel owl-theme" id="services-carousel">
+
+    <div class="grid-row">
+        <section class="newsletters" id="newsletters">
+            <div class="newsletter-buttons">
+                <a class="btn-next" href="javascript:void(0)" onclick="">Next <i class="fa fa-angle-right"></i> </a>
+                <a class="btn-prev" href="javascript:void(0)"> <i class="fa fa-angle-left"></i> Previous</a>
+                <div class="widget-title"></div>
             </div>
-            <div class="owl-controls clickable">
-                <div class="owl-buttons">
-                    <div class="owl-prev"><i class="fa fa-angle-left"></i></div>
-                    <div class="owl-next"><i class="fa fa-angle-right"></i></div>
-                </div>
+            <div id="newsletters-content">
+
             </div>
         </section>
-        <section id="services-carousel-data" class="pbElement" disabled="disabled">
-            @foreach (var summaryItem in newsLetterSummaryByYear)
-            {
-                <div data-year="@summaryItem.Year">
-                    @if (summaryItem.NewsLetterList.Count() < newsLettersPerRow)
-                    {
-                        foreach (var newsletter in summaryItem.NewsLetterList)
+        <script type="text/template" id="newsletters-content-data">
+            <div>
+                @foreach (var summaryItem in newsLetterSummaryByYear)
+                {
+                    <div data-year="@summaryItem.Year" class="divYear">
+                        @foreach (var newsletter in summaryItem.NewsLetterList)
                         {
-                            <div class="newsletter-row">
-                                <div class="item">
-                                    <div style="min-height: 170px;">
-                                        @renderListItems(newsletter)
-                                    </div>
-                                </div>
+                            <div class="grid-col grid-col-3">
+                                @renderListItems(newsletter)
                             </div>
                         }
-                    }
-                    else
-                    {
-                        for (int skipCount = 0; skipCount < summaryItem.NewsLetterList.Count; skipCount += newsLettersPerRow)
-                        {
-                            newsLettersForCurrentRow = summaryItem.NewsLetterList.Skip(skipCount).Take(newsLettersPerRow);
-                            <div class="newsletter-row">
-                                <div class="item">
-                                    @foreach (var newsletter in newsLettersForCurrentRow)
-                                    {
-                                        <div style="min-height: 170px; padding-bottom: 40px;">
-                                            @renderListItems(newsletter)
-                                        </div>
-                                    }
-                                </div>
-                            </div>
-                        }
-                    }
-                </div>
-            }
-        </section>
+                    </div>
+                }
+            </div>
+        </script>
     </div>
 }
 
 @helper renderListItems(NewsletterSummary newsletter)
 {
     var newsLetterUrl = string.Concat("/newsletters/", newsletter.Year, "/", newsletter.MonthName);
-    <a class="pic" href="@newsLetterUrl"><img src="@newsletter.ImageUrl" /></a>
-    <h2>@newsletter.MonthName &nbsp; @newsletter.Year</h2>
-    @*<p></p>*@
-    @*<a class="more fa fa-long-arrow-right" href="@newsLetterUrl"></a>*@
+    <div class="item">
+        <a class="pic" href="@newsLetterUrl">
+            <img src="@newsletter.ImageUrl" />
+            <h2>@newsletter.MonthName &nbsp; @newsletter.Year</h2>
+        </a>
+        @*<p></p>*@
+        @*<a class="more fa fa-long-arrow-right" href="@newsLetterUrl"></a>*@
+    </div>
 }
 
 
 @section scripts {
     <script>
-        function loadDetails(year) {
+        var newsLetterYears = [@(string.Join(",", newsLetterSummary.Select(s => s.Year).Distinct().OrderBy(k => k).ToArray()))];
+        var nextYear = 0;
+        var prevYear = 0;
 
+        function loadDetails(year) {
             if (year == "archived") {
                 window.location.href = "./Archive";
             }
+            else if (year > 0) {
+                var source = $('#newsletters-content-data').first().html();
+                var html = $(source).find(".divYear[data-year= '" + year + "']").html();
 
-            var html = "";
-            html = $('#services-carousel-data').first().find("[data-year='" + year + "']").html();
-            $('#services-carousel').remove();
-            $('.services').first().find('.widget-title').first().after('<div class="owl-carousel owl-theme" id="services-carousel">' + html + '</div>');
-            $('#services-carousel').owlCarousel({
-                items: 4,
-                itemsDesktop: false,
-                itemsDesktopSmall: false,
-                itemsTablet: false,
-                itemsTabletSmall: false,
-                itemsMobile: [150, 4],
-                navigation: true,
-                navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-                pagination: false
-            });
+                var index = 0;
+                while (index <= newsLetterYears.length - 1) {
+                    var y = newsLetterYears[index];
+                    if (y == year) {
+                        if (index + 1 == newsLetterYears.length) {
+                            nextYear = 0;
+                            prevYear = newsLetterYears[index - 1];
+                        }
+                        else if (index == 0 && index + 1 <= newsLetterYears.length - 1) {
+                            nextYear = newsLetterYears[index + 1];
+                            prevYear = 0;
+                        }
+                        else if (index + 1 <= newsLetterYears.length - 1 && index - 1 >= 0) {
+                            nextYear = newsLetterYears[index + 1];
+                            prevYear = newsLetterYears[index - 1];
+                        }
+                    }
+                    index = index + 1;
+                }
+
+                var target = $('#newsletters-content');
+                target.fadeOut(500);
+                target.html(html);
+                $("#newsletters .widget-title").html(year + " NEWSLETTERS")
+                target.fadeIn(500);
+            }
         }
 
         $(window).load(function () {
             loadDetails($('#defaultYear').val());
         })
+
+        $("a.btn-next").bind("click", function () { loadDetails(nextYear); });
+        $("a.btn-prev").bind("click", function () { loadDetails(prevYear); });
     </script>
 }

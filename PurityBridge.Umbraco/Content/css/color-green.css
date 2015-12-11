@@ -1321,8 +1321,7 @@ a {
 /* main navigation */
 .main-nav li.active > a {
     background-color: #4dcd8e;
-}
-
+}
 /* events */
 .event.page-header li.active {
     border-bottom: solid 3px #00b85d;
@@ -1345,3 +1344,20 @@ a {
 .event.page-detail .event-title {
     color: #00b85d;
 }
+/* Newsletters */
+.newsletter-buttons .btn-prev,
+    .newsletter-buttons .btn-next {
+        background-color: #4dc4c0;
+    }
+
+#newsletters-content .item img {
+    border: 2px solid #4dc4c0;
+}
+
+#newsletters-content .item h2 {
+    border-bottom-color: #4dc4c0;
+}
+
+#newsletters-content .item a:hover {
+    color: #4dc4c0;
+}

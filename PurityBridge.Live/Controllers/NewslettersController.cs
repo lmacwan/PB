@@ -58,7 +58,7 @@ namespace PurityBridge.Live
                 Umbraco.Core.Models.IPublishedProperty imageProperty = null;
                 _summary = newsLetters.ConvertAll<NewsletterSummary>(l =>
                 {
-                    imageProperty = Umbraco.TypedContent(umbraco.uQuery.GetNodeIdByUrl("/newsletters/2015/april/")).GetProperty("newsletterImage");
+                    imageProperty = Umbraco.TypedContent(umbraco.uQuery.GetNodeIdByUrl("/newsletters/"+l.Year.ToString()+"/"+l.MonthName)).GetProperty("newsletterImage");
                     l.ImageUrl = imageProperty.HasValue ? umbraco.uQuery.GetMedia(imageProperty.Value.ToString()).getProperty("umbracoFile").Value.ToString() : "/favicon.ico";
                     return l as NewsletterSummary;
                 });

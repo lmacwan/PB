@@ -71,11 +71,12 @@
             int NodeIdOfContent = uQuery.GetNodesByType("MasterConfigurations").First().Id;
             Document docMfsFeedSettings = new Document(NodeIdOfContent);
 
-            //int preValueID = (int)docMfsFeedSettings.getProperty("themeColor").Value;
+            var preValueProp = docMfsFeedSettings.getProperty("themeColor");
 
-            // Retrieve Text value
-            string colourTextValue = umbraco.library.GetPreValueAsString(
-            Convert.ToInt32(docMfsFeedSettings.getProperty("themeColor").Value));
+            string colourTextValue = "cyan";
+            if(preValueProp != null && (int)preValueProp.Value != 0) {
+                colourTextValue = umbraco.library.GetPreValueAsString((int)preValueProp.Value);
+            }
         }
 
         <link href="/Content/css/color-@(colourTextValue.ToLower()).css" rel="stylesheet" />
