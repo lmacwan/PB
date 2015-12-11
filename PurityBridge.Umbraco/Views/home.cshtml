@@ -24,7 +24,7 @@
     var highlights = homeData.Descendants("Highlights");
     if (highlights.Any())
     {
-        @Html.Partial("_HighlightsPartial", highlights.First())
+        @Html.Partial("_HighlightsPartial", highlights.First().Children())
     }
 
     var homeDataIndex = homeData.Descendants("HomeSliderContent").First();
@@ -82,10 +82,10 @@
         </div>
         
         @{
-            var treatmentCategory = Model.Content.AncestorOrSelf(1).Descendants("TreatmentsSubPage").First();
+            var treatmentsData = Model.Content.AncestorOrSelf(1).Descendants("TreatmentsData").First();
         }
         
-        @Html.Partial("_HighlightsPartial", treatmentCategory)
+       @Html.Partial("_HighlightsPartial", treatmentsData.Descendants("TreatmentsCategoryData"));
 
         @{
     var videoUrl = string.Format("http://www.youtube.com/embed/{0}?autoplay=1&loop=1&playlist={0}", (homeData.GetPropertyValue("youTubeVideoId") ?? ""));

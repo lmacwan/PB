@@ -3,25 +3,18 @@
 @{
     Layout = "/Views/Shared/_Layout.cshtml";
     ViewBag.UrlPrefix = string.Empty;
-    IPublishedContent treatmentsData = null;
-    var treatmentsNode = Model.Content.Descendants("TreatmentsPageContent");
+    IPublishedContent treatmentsData = Model.Content;
 }
 <style>
     #photo-content {
         margin-top: 30px;
     }
 </style>
-@if (treatmentsNode.Any())
+@if (treatmentsData != null)
 {
-    treatmentsData = treatmentsNode.First();
-    IPublishedContent highlights = null;
-    var highlightsNodes = Model.Content.Descendants("TreatmentCategory");
-    if (highlightsNodes.Any())
-    {
-        @Html.Partial("_HighlightsPartial", highlights);
-    }
+    @Html.Partial("_HighlightsPartial", treatmentsData.Descendants("TreatmentsCategoryData"));
 
     <div id="photo-content" class="vc_row-fluid beautify">
-        @treatmentsData.GetPropertyValue("treatmentsTextEditor")
+        @Html.Raw(treatmentsData.GetPropertyValue<string>("pageTextContent"))
     </div>
 }

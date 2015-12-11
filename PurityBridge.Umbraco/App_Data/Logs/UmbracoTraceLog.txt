@@ -859,3 +859,465 @@ System.Net.WebException: The remote server returned an error: (404) Not Found.
 System.Net.WebException: The remote server returned an error: (404) Not Found.
    at System.Net.HttpWebRequest.GetResponse()
    at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:09:56,544 [6] ERROR umbraco.presentation.publishingService - [Thread 10] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:10:24,632 [6] INFO  Umbraco.Web.Security.WebSecurity - [Thread 18] User Id: 0 logged in
+2015-12-11 21:10:24,793 [6] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-11 21:10:24,793 [6] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-11 21:10:24,947 [6] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.ITree
+2015-12-11 21:10:24,966 [6] WARN  Umbraco.Core.Services.ApplicationTreeService - [Thread 16] The tree definition: <add initialize="false" sortOrder="100" alias="nodes" application="developer" title="Nodes" iconClosed=".sprTreeFolder" iconOpen=".sprTreeFolder_o" type="Lecoati.uMirror.loadNodes, Lecoati.uMirror" /> could not be resolved to a .Net object type
+2015-12-11 21:10:24,966 [6] WARN  Umbraco.Core.Services.ApplicationTreeService - [Thread 16] The tree definition: <add initialize="true" sortOrder="100" alias="projects" application="developer" title="uMirror" iconClosed=".sprTreeFolder" iconOpen=".sprTreeFolder_o" type="Lecoati.uMirror.loadProjects, Lecoati.uMirror" /> could not be resolved to a .Net object type
+2015-12-11 21:10:24,966 [6] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 18ms)
+2015-12-11 21:10:49,184 [6] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-12-11 21:10:49,184 [6] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-12-11 21:10:49,223 [6] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-12-11 21:10:49,229 [6] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2015-12-11 21:10:56,523 [6] ERROR umbraco.presentation.publishingService - [Thread 16] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:11:56,535 [6] ERROR umbraco.presentation.publishingService - [Thread 15] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:12:56,564 [6] ERROR umbraco.presentation.publishingService - [Thread 16] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:13:56,589 [6] ERROR umbraco.presentation.publishingService - [Thread 31] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:14:56,605 [6] ERROR umbraco.presentation.publishingService - [Thread 21] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:15:56,629 [6] ERROR umbraco.presentation.publishingService - [Thread 25] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:16:56,610 [6] ERROR umbraco.presentation.publishingService - [Thread 12] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:17:56,640 [6] ERROR umbraco.presentation.publishingService - [Thread 35] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:18:56,640 [6] ERROR umbraco.presentation.publishingService - [Thread 40] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:19:56,679 [6] ERROR umbraco.presentation.publishingService - [Thread 34] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:20:56,662 [6] ERROR umbraco.presentation.publishingService - [Thread 38] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:21:56,704 [6] ERROR umbraco.presentation.publishingService - [Thread 48] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:22:56,714 [6] ERROR umbraco.presentation.publishingService - [Thread 48] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:23:56,714 [6] ERROR umbraco.presentation.publishingService - [Thread 51] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:24:56,723 [6] ERROR umbraco.presentation.publishingService - [Thread 42] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:25:56,733 [6] ERROR umbraco.presentation.publishingService - [Thread 54] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:26:56,742 [6] ERROR umbraco.presentation.publishingService - [Thread 56] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:27:56,762 [6] ERROR umbraco.presentation.publishingService - [Thread 60] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:28:56,772 [6] ERROR umbraco.presentation.publishingService - [Thread 60] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:29:56,787 [6] ERROR umbraco.presentation.publishingService - [Thread 63] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:30:56,799 [6] ERROR umbraco.presentation.publishingService - [Thread 66] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:31:56,817 [6] ERROR umbraco.presentation.publishingService - [Thread 66] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:32:56,828 [6] ERROR umbraco.presentation.publishingService - [Thread 66] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:33:56,837 [6] ERROR umbraco.presentation.publishingService - [Thread 60] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:34:56,854 [6] ERROR umbraco.presentation.publishingService - [Thread 26] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:35:56,870 [6] ERROR umbraco.presentation.publishingService - [Thread 71] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:36:56,885 [6] ERROR umbraco.presentation.publishingService - [Thread 73] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:37:56,903 [6] ERROR umbraco.presentation.publishingService - [Thread 77] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:38:56,918 [6] ERROR umbraco.presentation.publishingService - [Thread 76] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:39:06,565 [6] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-12-11 21:39:06,577 [6] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 11ms)
+2015-12-11 21:39:54,275 [6] INFO  Umbraco.Core.PluginManager - [Thread 69] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-11 21:39:54,275 [6] INFO  Umbraco.Core.PluginManager - [Thread 69] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-11 21:39:56,943 [6] ERROR umbraco.presentation.publishingService - [Thread 60] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:40:56,940 [6] ERROR umbraco.presentation.publishingService - [Thread 73] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:41:56,975 [6] ERROR umbraco.presentation.publishingService - [Thread 72] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:42:56,966 [6] ERROR umbraco.presentation.publishingService - [Thread 72] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:43:56,983 [6] ERROR umbraco.presentation.publishingService - [Thread 73] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:44:07,649 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Treatments' with Id '1994' has been published.
+2015-12-11 21:44:18,208 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Page Data' with Id '5871' has been unpublished.
+2015-12-11 21:44:56,993 [6] ERROR umbraco.presentation.publishingService - [Thread 70] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:45:57,004 [6] ERROR umbraco.presentation.publishingService - [Thread 67] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:46:57,020 [6] ERROR umbraco.presentation.publishingService - [Thread 26] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:47:57,048 [6] ERROR umbraco.presentation.publishingService - [Thread 26] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:48:57,052 [6] ERROR umbraco.presentation.publishingService - [Thread 76] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:49:57,078 [6] ERROR umbraco.presentation.publishingService - [Thread 71] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:50:57,074 [6] ERROR umbraco.presentation.publishingService - [Thread 26] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:51:57,076 [6] ERROR umbraco.presentation.publishingService - [Thread 69] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:52:57,112 [6] ERROR umbraco.presentation.publishingService - [Thread 60] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:53:57,124 [6] ERROR umbraco.presentation.publishingService - [Thread 7] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:54:57,128 [6] ERROR umbraco.presentation.publishingService - [Thread 7] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:55:57,167 [6] ERROR umbraco.presentation.publishingService - [Thread 77] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:56:57,174 [6] ERROR umbraco.presentation.publishingService - [Thread 56] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:57:57,161 [6] ERROR umbraco.presentation.publishingService - [Thread 56] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:58:57,179 [6] ERROR umbraco.presentation.publishingService - [Thread 56] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 21:59:57,189 [6] ERROR umbraco.presentation.publishingService - [Thread 49] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:00:57,201 [6] ERROR umbraco.presentation.publishingService - [Thread 78] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:01:57,226 [6] ERROR umbraco.presentation.publishingService - [Thread 52] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:02:12,010 [6] INFO  Umbraco.Web.Security.WebSecurity - [Thread 37] User Id: 0 logged in
+2015-12-11 22:02:15,075 [6] INFO  Umbraco.Web.Security.WebSecurity - [Thread 49] User Id: 0 logged in
+2015-12-11 22:02:57,276 [6] ERROR umbraco.presentation.publishingService - [Thread 52] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:03:57,246 [6] ERROR umbraco.presentation.publishingService - [Thread 78] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:04:57,265 [6] ERROR umbraco.presentation.publishingService - [Thread 37] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:05:57,275 [6] ERROR umbraco.presentation.publishingService - [Thread 55] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:06:57,289 [6] ERROR umbraco.presentation.publishingService - [Thread 42] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:07:57,310 [6] ERROR umbraco.presentation.publishingService - [Thread 47] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:08:57,319 [6] ERROR umbraco.presentation.publishingService - [Thread 59] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:09:57,322 [6] ERROR umbraco.presentation.publishingService - [Thread 44] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:10:53,160 [6] INFO  Umbraco.Core.PluginManager - [Thread 45] Starting resolution types of umbraco.interfaces.IDataType
+2015-12-11 22:10:53,182 [6] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 21ms)
+2015-12-11 22:10:57,349 [6] ERROR umbraco.presentation.publishingService - [Thread 59] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:11:57,349 [6] ERROR umbraco.presentation.publishingService - [Thread 52] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:12:57,403 [6] ERROR umbraco.presentation.publishingService - [Thread 46] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:13:57,424 [6] ERROR umbraco.presentation.publishingService - [Thread 52] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:14:27,236 [6] INFO  umbraco.content - [Thread 55] Loading content from database...
+2015-12-11 22:14:57,416 [6] ERROR umbraco.presentation.publishingService - [Thread 46] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:15:56,963 [6] INFO  umbraco.content - [Thread 54] Loading content from database...
+2015-12-11 22:15:57,624 [6] ERROR umbraco.presentation.publishingService - [Thread 48] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:16:30,422 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 48] Content 'Non Surgical Treatments' with Id '5908' could not be published because of invalid properties.
+2015-12-11 22:16:30,523 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 48] Call was made to ContentService.Publish, use PublishWithStatus instead since that method will provide more detailed information on the outcome
+2015-12-11 22:16:38,782 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 57] Content 'Treatment of Skin Lesions' with Id '5910' could not be published because of invalid properties.
+2015-12-11 22:16:38,931 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 57] Call was made to ContentService.Publish, use PublishWithStatus instead since that method will provide more detailed information on the outcome
+2015-12-11 22:16:45,788 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content 'Clinic Based Aesthetic Surgery' with Id '5911' could not be published because of invalid properties.
+2015-12-11 22:16:45,939 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Call was made to ContentService.Publish, use PublishWithStatus instead since that method will provide more detailed information on the outcome
+2015-12-11 22:16:52,717 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content 'Dental Treatments' with Id '5912' could not be published because of invalid properties.
+2015-12-11 22:16:52,780 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Call was made to ContentService.Publish, use PublishWithStatus instead since that method will provide more detailed information on the outcome
+2015-12-11 22:16:56,976 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content 'Cosmetic surgery' with Id '5913' could not be published because of invalid properties.
+2015-12-11 22:16:57,173 [6] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Call was made to ContentService.Publish, use PublishWithStatus instead since that method will provide more detailed information on the outcome
+2015-12-11 22:16:57,480 [6] ERROR umbraco.presentation.publishingService - [Thread 54] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:17:07,163 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Cosmetic surgery' with Id '5913' has been published.
+2015-12-11 22:17:07,164 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Dental Treatments' with Id '5912' has been published.
+2015-12-11 22:17:07,164 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Clinic Based Aesthetic Surgery' with Id '5911' has been published.
+2015-12-11 22:17:07,164 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Treatment of Skin Lesions' with Id '5910' has been published.
+2015-12-11 22:17:07,164 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Non Surgical Treatments' with Id '5908' has been published.
+2015-12-11 22:17:45,737 [6] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 49]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Execute(String sql, Object[] args)
+2015-12-11 22:17:56,952 [6] INFO  umbraco.content - [Thread 54] Loading content from database...
+2015-12-11 22:17:57,747 [6] ERROR umbraco.presentation.publishingService - [Thread 58] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:18:00,056 [6] INFO  umbraco.content - [Thread 54] Loading content from database...
+2015-12-11 22:18:03,021 [6] INFO  umbraco.content - [Thread 54] Loading content from database...
+2015-12-11 22:18:06,462 [6] INFO  umbraco.content - [Thread 58] Loading content from database...
+2015-12-11 22:18:09,306 [6] INFO  umbraco.content - [Thread 54] Loading content from database...
+2015-12-11 22:18:22,889 [6] INFO  umbraco.content - [Thread 38] Loading content from database...
+2015-12-11 22:18:57,622 [6] ERROR umbraco.presentation.publishingService - [Thread 53] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:19:09,226 [6] INFO  umbraco.content - [Thread 58] Loading content from database...
+2015-12-11 22:19:32,741 [6] INFO  umbraco.content - [Thread 7] Loading content from database...
+2015-12-11 22:19:35,837 [6] INFO  umbraco.content - [Thread 66] Loading content from database...
+2015-12-11 22:19:57,632 [6] ERROR umbraco.presentation.publishingService - [Thread 54] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:20:57,643 [6] ERROR umbraco.presentation.publishingService - [Thread 66] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:21:05,268 [6] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Anti wrinkle injections' with Id '5914' has been published.
+2015-12-11 22:21:57,736 [6] ERROR umbraco.presentation.publishingService - [Thread 70] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:22:13,008 [6] INFO  umbraco.content - [Thread 59] Loading content from database...
+2015-12-11 22:22:16,678 [6] INFO  umbraco.content - [Thread 65] Loading content from database...
+2015-12-11 22:22:19,427 [6] INFO  umbraco.content - [Thread 38] Loading content from database...
+2015-12-11 22:22:22,422 [6] INFO  umbraco.content - [Thread 44] Loading content from database...
+2015-12-11 22:22:25,061 [6] INFO  umbraco.content - [Thread 75] Loading content from database...
+2015-12-11 22:22:50,303 [6] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 44] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-12-11 22:22:57,741 [6] ERROR umbraco.presentation.publishingService - [Thread 70] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:23:06,829 [6] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 65] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-12-11 22:23:28,849 [6] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 70] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-12-11 22:23:57,820 [6] ERROR umbraco.presentation.publishingService - [Thread 65] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:24:02,128 [6] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 58] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-12-11 22:24:30,237 [6] INFO  umbraco.content - [Thread 65] Loading content from database...
+2015-12-11 22:24:30,271 [6] INFO  umbraco.content - [Thread 53] Loading content from database...
+2015-12-11 22:24:30,340 [6] INFO  umbraco.content - [Thread 59] Loading content from database...
+2015-12-11 22:24:30,461 [6] INFO  umbraco.content - [Thread 38] Loading content from database...
+2015-12-11 22:24:30,565 [6] INFO  umbraco.content - [Thread 75] Loading content from database...
+2015-12-11 22:24:42,165 [6] INFO  umbraco.content - [Thread 53] Loading content from database...
+2015-12-11 22:24:44,986 [6] INFO  umbraco.content - [Thread 78] Loading content from database...
+2015-12-11 22:24:47,631 [6] INFO  umbraco.content - [Thread 38] Loading content from database...
+2015-12-11 22:24:55,795 [6] INFO  umbraco.content - [Thread 59] Loading content from database...
+2015-12-11 22:24:57,783 [6] ERROR umbraco.presentation.publishingService - [Thread 61] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:25:04,725 [6] INFO  umbraco.content - [Thread 61] Loading content from database...
+2015-12-11 22:25:06,644 [6] INFO  umbraco.content - [Thread 38] Loading content from database...
+2015-12-11 22:25:08,325 [6] INFO  umbraco.content - [Thread 62] Loading content from database...
+2015-12-11 22:25:10,167 [6] INFO  umbraco.content - [Thread 53] Loading content from database...
+2015-12-11 22:25:19,151 [6] INFO  umbraco.content - [Thread 54] Loading content from database...
+2015-12-11 22:25:57,728 [6] ERROR umbraco.presentation.publishingService - [Thread 54] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:26:56,292 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 75] An unhandled exception occurred
+System.InvalidOperationException: The model item passed into the dictionary is of type 'Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Umbraco.Core.Models.IPublishedContent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   at System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   at System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   at Umbraco.Web.Mvc.UmbracoViewPage`1.SetViewData(ViewDataDictionary viewData)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at ASP._Page_Views_Home_cshtml.Execute() in d:\Projects\Mine\PurityBridge\PB\PurityBridge.Umbraco\Views\Home.cshtml:line 27
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-11 22:26:57,742 [6] ERROR umbraco.presentation.publishingService - [Thread 26] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:27:19,581 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 53] An unhandled exception occurred
+System.InvalidOperationException: The model item passed into the dictionary is of type 'Umbraco.Web.PublishedCache.XmlPublishedCache.XmlPublishedContent', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[Umbraco.Core.Models.IPublishedContent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   at System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   at System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   at Umbraco.Web.Mvc.UmbracoViewPage`1.SetViewData(ViewDataDictionary viewData)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at ASP._Page_Views_Home_cshtml.Execute() in d:\Projects\Mine\PurityBridge\PB\PurityBridge.Umbraco\Views\Home.cshtml:line 27
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-11 22:27:57,749 [6] ERROR umbraco.presentation.publishingService - [Thread 70] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
+2015-12-11 22:28:57,794 [6] ERROR umbraco.presentation.publishingService - [Thread 26] Error sending url request for scheduled task
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.publishingService.GetTaskByHttp(String url)
