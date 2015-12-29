@@ -25,18 +25,24 @@
     var showVideos = isHideRelatedVideo == false && videos.Count(v => v != null && v.IsVisible()) > 0;
     var showRelatedTreatmentWidget = isHideRelatedTreatmentWidget == false && relatedTreatment != null;
 
-    var pageContentText = PurityBridge.Umbraco.Utility.GetPHtml(treatmentContent.GetPropertyValue<string>("pageContentText"));
+    var pageContentText = Html.Raw(Server.HtmlDecode(umbraco.library.RenderMacroContent(Model.Content.GetPropertyValue<string>("pageContentText"), Model.Content.Id)).Replace("<<P>>", "<span class='paragraph'></span>"));
 
     var faqHeading = treatmentContent.GetPropertyValue<string>("faqHeading");
     if (string.IsNullOrEmpty(faqHeading))
     {
         faqHeading = string.Format("Other thoughts regarding {0}", pageHeading);
     }
-    var faqContent = treatmentContent.GetPropertyValue<string>("faqContent");
+    var faqContent = Server.HtmlDecode(umbraco.library.RenderMacroContent(Model.Content.GetPropertyValue<string>("faqContent"), Model.Content.Id)).Replace("<<P>>", "<span class='paragraph'></span>");
 }
 @section styles {
     <link href="~/Content/css/treatment.css" rel="stylesheet" />
     <link href="~/Content/css/testimonial.css" rel="stylesheet" />
+    <style>
+        span.paragraph {
+            display:block;
+            margin-top: 0.5em;
+        }
+    </style>
 }
 @section ImageSection {
     <section id="banner" style="background-color: @(bannerColour);">

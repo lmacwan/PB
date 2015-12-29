@@ -7,6 +7,8 @@ namespace PurityBridge.Umbraco
 {
     public class Utility
     {
+        public const string NEWLINE = "<<nl>>";
+
         public static int GetSpanEquivalent(string span)
         {
             var cols = span.Contains("Less")
@@ -22,7 +24,7 @@ namespace PurityBridge.Umbraco
         public static string GetOlHtml(string text, List<string> namesList)
         {
             var value = string.Empty;
-            if(namesList == null) 
+            if (namesList == null)
             {
                 namesList = new List<string>();
             }
@@ -47,7 +49,7 @@ namespace PurityBridge.Umbraco
             var pArray = GetPList(text);
             pArray.ForEach(i =>
             {
-                List<string> oList = i.Split(new string[] { "<<#>>" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                List<string> oList = i.Split(new string[] { NEWLINE }, StringSplitOptions.RemoveEmptyEntries).ToList();
                 value.Add(oList);
             });
             return value;
@@ -56,20 +58,24 @@ namespace PurityBridge.Umbraco
         public static string GetPHtml(string text)
         {
             var pArray = GetPList(text);
-            pArray.ForEach(i =>
+            if (pArray.Any())
             {
-                i = "</p><p>" + i;
-            });
-            var firstP = pArray.First();
-            firstP = firstP.Replace("</p>", "");
-            var lastP = pArray.Last();
-            lastP = lastP.Replace("<p>", "");
-            return string.Join("", pArray);
+                pArray.ForEach(i =>
+                {
+                    i = "</p><p>" + i;
+                });
+                var firstP = pArray.First();
+                firstP = firstP.Replace("</p>", "");
+                var lastP = pArray.Last();
+                lastP = lastP.Replace("<p>", "");
+                return string.Join("", pArray);
+            }
+            return text;
         }
 
         private static List<string> GetPList(string text)
         {
-            var pArray = text.Split(new string[] { "<<p>>" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            var pArray = text.Split(new string[] { "<<nl>>" }, StringSplitOptions.RemoveEmptyEntries).ToList();
             return pArray.ToList();
         }
     }

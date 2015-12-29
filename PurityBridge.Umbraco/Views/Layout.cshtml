@@ -74,8 +74,8 @@
             var preValueProp = docMfsFeedSettings.getProperty("themeColor");
 
             string colourTextValue = "cyan";
-            if(preValueProp != null && (int)preValueProp.Value != 0) {
-                colourTextValue = umbraco.library.GetPreValueAsString((int)preValueProp.Value);
+            if(preValueProp != null && Convert.ToInt32(preValueProp.Value) != 0) {
+                colourTextValue = umbraco.library.GetPreValueAsString(Convert.ToInt32(preValueProp.Value));
             }
         }
 
